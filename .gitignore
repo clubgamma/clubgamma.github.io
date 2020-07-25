@@ -1,0 +1,14 @@
+# Text editors / IDE
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Secret files
+*.key
+*.pem
+
+# Node modules
+node_modules
