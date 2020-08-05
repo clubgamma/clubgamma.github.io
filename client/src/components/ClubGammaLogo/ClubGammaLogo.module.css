@@ -1,0 +1,16 @@
+.logoContainer {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logoImg {
+  border-radius: 5px;
+  margin: 3px;
+}
+
+.logoContainer > span {
+  color: var(--text-black);
+  font-weight: 900;
+  font-size: 24px;
+  margin: 0 7px;
+}

@@ -1,0 +1,29 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 72px;
+  -webkit-backdrop-filter: saturate(180%) blur(5px);
+  backdrop-filter: saturate(180%) blur(5px);
+}
+
+.navbar > div {
+  margin: 0 64px;
+}
+
+.navbar a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin: 0 16px;
+  color: var(--blue-black);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.navbar a:hover {
+  color: var(--dark-blue);
+}
