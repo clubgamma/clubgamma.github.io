@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: none;
 }
 
 html {
@@ -16,6 +17,7 @@ body {
   overflow-x: hidden;
 }
 
+/*================= COLOR SCHEME =================*/
 :root {
   --text-black: #0f1a20;
   --blue-black: #0A2E36;
@@ -29,6 +31,7 @@ body {
   --light-green: #ACF39D;
 }
 
+/*================= SCROLL-BAR =================*/
 ::-webkit-scrollbar {
   width: 7px;
 }
