@@ -11,8 +11,6 @@ html {
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   max-width: 100vw;
   overflow-x: hidden;
 }

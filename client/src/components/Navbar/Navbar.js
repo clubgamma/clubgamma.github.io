@@ -14,10 +14,9 @@ const navbar = props => {
       </div>
       <div>
         <Link to="#home">Home</Link>
-        <Link to="#about">About</Link>
         <Link to="#team">Team</Link>
+        <Link to="#events">Events</Link>
         <Link to="#blogs">Blogs</Link>
-        <Link to="#collabs">Collaborators</Link>
         <Link to="#contactUs">Contact Us</Link>
       </div>
     </nav>

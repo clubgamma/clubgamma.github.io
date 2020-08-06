@@ -4,9 +4,9 @@
   height: 20px;
   border: 2px solid black;
   box-sizing: border-box;
-  transition: 0.1s;
+  transition: 0.15s;
   transform: translate(-50%, -50%);
   border-radius: 50%;
   pointer-events: none;
-  z-index: 2;
+  z-index: 101;
 }
