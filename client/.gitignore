@@ -34,3 +34,7 @@ yarn-error.log*
 
 # Private assets
 assets-master
+
+# Components
+AtomGamma
+Navbar_depricated

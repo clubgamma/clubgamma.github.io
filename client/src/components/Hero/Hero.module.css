@@ -1,24 +1,4 @@
-.main {
-  margin-top: 130px;
-  display: flex;
-  width: 100%;
-}
-
-.headingContainer {
-  flex: 1;
-  position: relative;
-}
-
-.heading {
-  position: absolute;
-  top: 30%;
-  left: 20%;
-}
-
-.heading > h1 {
-  font-size: 6rem;
-  margin: 10px 0;
-}
+/* Heading having different color transitions:
 
 .heading > h1::before {
   content: "Club Gamma";
@@ -42,35 +22,4 @@
     background-position: 0 0;
   }
 }
-
-.heading > p {
-  font-size: 1.5rem;
-  color: var(--blue-black);
-}
-
-.heading > p::before {
-  background-image: url('../../assets/images/double-quotes.png');
-  background-size: 10px 10px;
-  display: inline-block;
-  height: 10px;
-  width: 10px;
-  content: "";
-  margin-bottom: 10px;
-  margin-right: 10px;
-  transform: rotate(180deg);
-}
-
-.heading > p::after {
-  background-image: url('../../assets/images/double-quotes.png');
-  background-size: 10px 10px;
-  display: inline-block;
-  height: 10px;
-  width: 10px;
-  content: "";
-  margin-bottom: 10px;
-  margin-left: 10px;
-}
-
-.atom {
-  margin: 0 3vw;
-}
+*/

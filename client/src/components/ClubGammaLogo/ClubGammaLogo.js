@@ -1,7 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import styles from './ClubGammaLogo.module.css'
-import Logo from '../../assets/images/logo-square-small.png'
+import Logo from '../../assets/images/gamma.png'
 
 const logo = props => {
   const [height, width] = props.size.split('x')
@@ -15,7 +16,7 @@ const logo = props => {
         alt="logo"
       />
       {props.hasText
-        ? <span>Club Gamma</span>
+        ? <Link to="#home">Club Gamma</Link>
         : null}
     </div>
   )

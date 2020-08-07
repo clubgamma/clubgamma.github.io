@@ -1,4 +1,4 @@
-.navbar {
+.navigation {
   position: fixed;
   top: 0;
   left: 0;
@@ -6,26 +6,72 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 72px;
+  height: 90px;
   -webkit-backdrop-filter: saturate(180%) blur(5px);
   backdrop-filter: saturate(180%) blur(5px);
   background-color: rgba(255, 255, 255, 0.8);
-  z-index: 100;
 }
 
-.navbar > div {
-  margin: 0 64px;
+.navItems {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 64px;
 }
 
-.navbar a {
-  font-size: 0.9rem;
-  text-decoration: none;
-  margin: 0 16px;
-  color: var(--blue-black);
-  letter-spacing: 2px;
-  text-transform: uppercase;
+.navItems a {
+  font-size: 1.2rem;
+  margin: 0 20px;
+  padding: 10px 24px;
+  letter-spacing: 1.8px;
 }
 
-.navbar a:hover {
-  color: var(--dark-blue);
+.navItems a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background-color: var(--logo-color);
+  transition: width 0.3s;
+}
+
+.navItems a:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+.navItems .activeSection {
+  background-color: var(--logo-color);
+  border-radius: 64px;
+  color: white;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.drawer {
+  display: none;
+}
+
+
+/*===================== MEDIA QUERIES =====================*/
+
+/*============= FOR MOBILE & TABLETS =============*/
+@media (max-width: 888px) {  
+  .navigation {
+    height: 64px;
+  }
+  
+  .navItems {
+    display: none;
+  }
+
+  .responsive {
+    display: none;
+  }
+
+  .drawer {
+    display: block;
+  }
 }

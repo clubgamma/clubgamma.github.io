@@ -15,6 +15,11 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+  color: var(--blue-black);
+}
+
 /*================= COLOR SCHEME =================*/
 :root {
   --text-black: #0f1a20;
