@@ -1,25 +1,141 @@
-/* Heading having different color transitions:
-
-.heading > h1::before {
-  content: "Club Gamma";
-  position: absolute;
-  background: linear-gradient(90deg, #8455C7, #F55182, #E74D4A, #F9C52A, #46DCD8, #007FEE, #8455C7);
-  background-size: 300%;
-  overflow: hidden;
-  transition: width 2s;
-  animation: animate 20s linear infinite;
+.dashboard {
+  position: relative;
+  padding-top: 10vh;
   width: 100%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  min-height: 100vh;
 }
 
-@keyframes animate {
+.ellipse1 {
+  position: absolute;
+  left: 0;
+  top: 10%;
+  transform: translateX(-50%);
+  height: 40%;
+  height: 40%;
+}
+
+.ellipse2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(40%, 50%);
+  height: 45%;
+  height: 45%;
+}
+
+.mask {
+  height: 30%;
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  transform: translateY(40%);
+}
+
+.fontPage {
+  position: absolute;
+  height: 50%;
+  width: 80%;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tagline {
+  position: absolute;
+  width: fit-content;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  word-spacing: 8px;
+}
+
+.tagline span {
+  padding: 4px 16px;
+  background-color: var(--logo-color);
+  color: white;
+  border-radius: 30px;
+}
+
+.scrollDown {
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+  left: 0;
+  margin: auto;
+  width: 34px;
+  height: 75px;
+}
+
+.mousey {
+  padding: 7px 12px;
+  width: 2px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+
+.scroller {
+  width: 3px;
+  height: 12px;
+  border-radius: 25%;
+  background-color: rgb(0, 0, 0);
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
+  animation-iteration-count: infinite;
+}
+
+/*==================== KEYFRAMES ====================*/
+@keyframes scroll {
   0% {
-    background-position: 300% 0;
-  } 
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(0);
+    opacity: 1;
+  }
   100% {
-    background-position: 0 0;
+    transform: translateY(15px);
+    opacity: 0;
   }
 }
-*/
+
+/*================= MEDIA QUERIES =================*/
+@media (max-width: 888px) {
+  .ellipse1 {
+    height: 20%;
+  }
+
+  .ellipse2 {
+    height: 25%;
+    bottom: 9%;
+  }
+
+  .mask {
+    height: 20%;
+    left: 0;
+    bottom: 10%;
+  }
+
+  .fontPage {
+    height: 100%;
+    width: 95%;
+  }
+
+  .tagline {
+    font-size: 0.65rem;
+    top: 54%;
+    word-spacing: 4px;
+  }
+
+  .tagline span {
+    padding: 4px 8px;
+  }
+
+  .scrollDown {
+    display: none;
+  }
+}
