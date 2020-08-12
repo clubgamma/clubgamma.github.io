@@ -1,0 +1,38 @@
+.contactUs {
+  min-height: 100vh;
+  padding-top: 12vh;
+}
+
+.headingContainer {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.headingContainer > p {
+  color: var(--logo-color);
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin: 14px 0;
+}
+
+.headingDesc {
+  margin: 44px;
+  text-align: center;
+  color: var(--blue-black);
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+
+/*================= MEDIA QUERIES =================*/
+@media (max-width: 888px) {
+  .headingContainer > p {
+    font-size: 1rem;
+  }
+
+  .headingDesc {
+    margin: 24px;
+    font-size: 0.95rem;
+    line-height: 24px;
+    letter-spacing: 0;
+  }
+}

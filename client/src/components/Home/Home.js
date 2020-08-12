@@ -1,6 +1,6 @@
 import React from 'react'
 
-import styles from './Hero.module.css'
+import styles from './Home.module.css'
 import ellipseImg from '../../assets/images/Ellipse.png'
 import fontPageSvg from '../../assets/images/Font_Page.svg'
 import maskImg from '../../assets/images/Mask_Group.png'

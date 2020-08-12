@@ -48,6 +48,7 @@
   transform: translate(-50%, -50%);
   font-size: 2rem;
   word-spacing: 8px;
+  color: var(--text-black);
 }
 
 .tagline span {

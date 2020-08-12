@@ -1,0 +1,77 @@
+.faq {
+  margin: 24px;
+  -webkit-box-shadow: 0px 0px 18px -5px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 18px -5px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 18px -5px rgba(0,0,0,0.2);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.headingContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  flex: 1;
+  padding: 24px;
+  font-size: 1.4rem;
+  border-radius: 20px;
+  color: var(--blue-black);
+}
+
+.headingOpen {
+  background-color: var(--logo-color);
+  color: white;
+}
+
+.faq:hover .heading {
+  background-color: var(--logo-color);
+  color: white;
+}
+
+.faq:hover .arrow {
+  filter: invert(100%);
+}
+
+.arrow {
+  position: absolute;
+  height: 20px;
+  padding: 0 24px;
+  right: 0;
+  transition: 0.5s;
+}
+
+.arrowOpen {
+  filter: invert(100%);
+  transform: rotate(180deg);
+}
+
+.faqDesc {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.5s;
+  font-size: 1.2rem;
+  color: var(--text-grey);
+}
+
+.faqDescOpen {
+  max-height: fit-content;
+  opacity: 1;
+  padding: 24px 24px;
+}
+
+/*================= MEDIA QUERIES =================*/
+@media (max-width: 888px) {
+  .faq {
+    border-radius: 10px;
+  }
+
+  .heading {
+    padding: 18px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+  }
+}

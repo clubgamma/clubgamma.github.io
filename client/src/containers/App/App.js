@@ -1,10 +1,11 @@
 import React, { Component, Fragment } from 'react'
 
+import Cursor from '../../components/Cursor/Cursor'
 import Navbar from '../../components/Navbar/Navbar'
-import styles from './App.module.css'
-import Hero from '../../components/Hero/Hero'
+import Home from '../../components/Home/Home'
 import SideDrawer from '../../components/SideDrawer/SideDrawer'
 import Backdrop from '../../components/Backdrop/Backdrop'
+import ContactUs from '../../components/ContactUs/ContactUs'
 
 class App extends Component {
   state = {
@@ -41,15 +42,15 @@ class App extends Component {
     // Scroll Event
     window.addEventListener('scroll', this.handleScroll)
 
-    if (window.screen.width >= 888) {
-      // Get all the section id and position, whose IDs are present in navbar
-      let sections = []
-      document.getElementById("navItemsContainer").childNodes.forEach(node => {
-        const section = document.getElementById(node.hash.slice(1, node.hash.length)).getBoundingClientRect()
-        sections.push({ id: node.hash, topPosition: section.top, bottomPosition: section.bottom })
-      })
-      this.setState({ sections: sections })
+    // Get all the section id and position, whose IDs are present in navbar
+    let sections = []
+    document.getElementById("navItemsContainer").childNodes.forEach(node => {
+      const section = document.getElementById(node.hash.slice(1, node.hash.length)).getBoundingClientRect()
+      sections.push({ id: node.hash, topPosition: section.top, bottomPosition: section.bottom })
+    })
+    this.setState({ sections: sections })
 
+    if (window.screen.width >= 888) {
       // Cursor animations
       const cursor = document.getElementById('cursor')
       const links = Array.prototype.slice.call(document.querySelectorAll('a'))
@@ -82,9 +83,7 @@ class App extends Component {
 
     return (
       <Fragment>
-        {window.screen.width >= 888
-          ? <div className={styles.cursor} id="cursor"></div>
-          : null}
+        <Cursor />
         <Navbar
           scrolled={this.state.isScrolled}
           drawerClickHandler={this.drawerToggleHandler}
@@ -93,12 +92,12 @@ class App extends Component {
         <SideDrawer show={this.state.isSideDrawerOpen} activeSection={this.state.activeSection} />
         {backdrop}
 
-        <Hero />
+        <Home />
 
         <section id="aboutUs" style={{ width: '1px', height: '100vh', paddingTop: '10vh' }}>About Us</section>
         <section id="teams" style={{ width: '1px', height: '100vh', paddingTop: '10vh' }}>Teams</section>
         <section id="blogs" style={{ width: '1px', height: '100vh', paddingTop: '10vh' }}>Blogs</section>
-        <footer id="contactUs" style={{ width: '1px', height: '100vh', paddingTop: '10vh' }}>Contact Us</footer>
+        <ContactUs />
       </Fragment>
     )
   }

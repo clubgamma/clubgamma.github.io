@@ -1,0 +1,24 @@
+.heading {
+  font-size: 2.5rem;
+  word-spacing: 4px;
+  color: var(--text-black);
+}
+
+.heading span {
+  padding: 10px 16px;
+  background-color: var(--logo-color);
+  color: white;
+  border-radius: 34px;
+}
+
+/*================= MEDIA QUERIES =================*/
+@media (max-width: 888px) {
+  .heading {
+    font-size: 1.8rem;
+  }
+
+  .heading span {
+    padding: 7px 12px;
+    border-radius: 28px;
+  }
+}

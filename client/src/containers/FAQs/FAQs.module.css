@@ -1,0 +1,13 @@
+.faqContainer {
+  width: 50vw;
+  min-height: 100vh;
+  margin: 64px auto;
+}
+
+/*================= MEDIA QUERIES =================*/
+@media (max-width: 888px) {
+  .faqContainer {
+    width: 100vw;
+    margin: 56px auto;
+  }  
+}
