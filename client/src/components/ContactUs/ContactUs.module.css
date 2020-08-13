@@ -1,4 +1,5 @@
 .contactUs {
+  position: relative;
   min-height: 100vh;
   padding-top: 12vh;
 }
@@ -23,6 +24,22 @@
   line-height: 28px;
 }
 
+.ellipse {
+  position: absolute;
+  right: -150px;
+  top: 200px;
+  height: 350px;
+  z-index: -1;
+}
+
+.mask {
+  position: absolute;
+  left: -60px;
+  top: 750px;
+  height: 220px;
+  z-index: -1;
+}
+
 /*================= MEDIA QUERIES =================*/
 @media (max-width: 888px) {
   .headingContainer > p {
@@ -34,5 +51,11 @@
     font-size: 0.95rem;
     line-height: 24px;
     letter-spacing: 0;
+  }
+
+  .mask {
+    height: 150px;
+    top: 900px;
+    left: -100px;
   }
 }

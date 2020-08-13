@@ -52,7 +52,7 @@
   max-height: 0;
   overflow: hidden;
   opacity: 0;
-  transition: 0.5s;
+  transition: 0.3s;
   font-size: 1.2rem;
   color: var(--text-grey);
 }
@@ -60,7 +60,7 @@
 .faqDescOpen {
   max-height: fit-content;
   opacity: 1;
-  padding: 24px 24px;
+  padding: 24px;
 }
 
 /*================= MEDIA QUERIES =================*/
@@ -73,5 +73,9 @@
     padding: 18px;
     font-size: 1.2rem;
     border-radius: 10px;
+  }
+
+  .faqDesc {
+    font-size: 1rem;
   }
 }

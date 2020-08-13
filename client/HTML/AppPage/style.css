@@ -1,0 +1,213 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+/* App Page */
+.appPage {
+    height: 100vh;
+    width: 100%;
+    background-color: #000004;
+}
+
+.colOne {
+    display: inline-block;
+    width: 40%;
+    height: 100vh;
+    color: #ffffff;
+}
+
+.centerDiv {
+    width: 30%;
+    position: absolute;
+    display: block;
+    text-align: right;
+    transform: translateY(40vh);
+    margin-left: 10%;
+}
+
+.colOne h1 {
+    font-size: 2.5rem;
+    padding-bottom: 25px;
+    font-weight: 700;
+}
+
+.colOne span {
+    padding: 10px 20px;
+    background-color: #d71e3c;
+    border-radius: 35px;
+}
+
+.colOne p {
+    font-size: 1rem;
+    padding-bottom: 30px;
+}
+
+.colOne a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #dbdada;
+    padding: 5px 10px;
+    border: 2px solid #dbdada;
+    border-radius: 20px;
+    transition: ease 150ms;
+}
+.colOne a:hover {
+    word-spacing: 1px;
+}
+
+.colTwo {
+    display: inline-block;
+    width: 20%;
+    height: 100vh;
+    text-align: center;
+}
+
+.colTwo img {
+    display: block;
+    text-align: center;
+    height: 70%;
+    margin: 0px auto;
+    transform: translateY(20%);
+    user-select: none;
+}
+
+.colThree {
+    display: inline-block;
+    width: 40%;
+    height: 100vh;
+}
+
+.colThree img {
+    height: 10%;
+    padding: 10px 20px;
+    transform: translateY(-30vh);
+}
+
+#dellipse {
+    position: absolute;
+    transform: translate(-50%, -30%);
+    left: 0px;
+    height: 70%;
+}
+
+#tellipse {
+    position: absolute;
+    top: 0px;
+    transform: translate(50%, -50%);
+    right: 0px;
+    height: 60%;
+}
+
+/* For tablets: */
+@media only screen and (max-width: 640px) {
+    .appPage {
+        height: auto;
+        padding-top: 10vh;
+    }
+
+    body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .colOne {
+        display:block;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .centerDiv {
+        width: 90%;
+        position: relative;
+        display: block;
+        margin: 0px auto;
+        text-align: center;
+        transform: none;
+        margin-bottom: 20px;
+    }
+
+    .colOne h1 {
+        padding: 0;
+        font-size: 2rem;
+        padding-bottom: 25px;
+        font-weight: 700;
+    }
+
+    .colOne span {
+        padding: 8px 16px;
+        background-color: #d71e3c;
+        border-radius: 35px;
+    }
+
+    .colOne p {
+        font-size: 1rem;
+        padding-bottom: 30px;
+    }
+
+    .colOne a {
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #dbdada;
+        padding: 5px 10px;
+        border: 2px solid #dbdada;
+        border-radius: 20px;
+        transition: ease 150ms;
+    }
+
+    .colTwo {
+        display:block;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .colTwo img {
+        display: block;
+        text-align: center;
+        padding: 20px 0px;
+        width: 40%;
+        height: 40%;
+        margin: 0px auto;
+        user-select: none;
+        transform: none;
+    }
+
+    .colThree {
+        display:block;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .colThree img {
+        text-align: center;
+        display: block;
+        height: 6%;
+        padding: 0px 0px;
+        margin: 0px auto;
+        transform: none;
+    }
+
+    #dellipse {
+        position: absolute;
+        transform: translate(-50%, -30%);
+        left: 0px;
+        height: 70%;
+        display: none;
+    }
+
+    #tellipse {
+        position: absolute;
+        top: 0px;
+        transform: translate(50%, -50%);
+        right: 0px;
+        height: 60%;
+        display: none;
+    }
+}
