@@ -18,7 +18,9 @@
   }
 
   .heading span {
-    padding: 7px 12px;
+    padding: 0;
     border-radius: 28px;
+    background-color: transparent;
+    color: var(--logo-color) !important;
   }
 }

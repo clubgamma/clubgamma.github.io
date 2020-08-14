@@ -1,0 +1,158 @@
+.footer {
+  background-color: var(--bg-black);
+  display: flex;
+  flex-direction: column;
+  padding: 0 86px;
+}
+
+.footer p, .footer span, .footer h3 {
+  color: white;
+}
+
+.main {
+  display: flex;
+  border-bottom: 1px solid var(--dark-grey);
+}
+
+.contactUs {
+  flex: 2;
+  margin: 32px 0;
+}
+
+.contactUs > p {
+  padding: 24px 0;
+  color: var(--light-grey);
+  font-size: 1.1rem;
+}
+
+.main hr {
+  margin: 32px 64px;
+  background-color: var(--dark-grey);
+  width: 1px;
+  border: none;
+}
+
+.headingContainer {
+  width: fit-content;
+}
+
+.headingContainer > h3 {
+  color: var(--logo-color) !important;
+  font-size: 1.2rem;
+}
+
+.subscribe {
+  flex: 1;
+  margin: 32px 0;
+}
+
+.subscribe h3 {
+  font-size: 1.5rem;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+.subscribe > p {
+  color: var(--light-grey);
+  font-size: 1.1rem;
+}
+
+.subscribeForm button {
+  margin-top: 10px;
+}
+
+.bottom {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.logoContainer {
+  margin-right: auto;
+}
+
+.logoContainer > img {
+  height: 86px;
+  margin: 20px 0;
+}
+
+.copyrightContainer {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.socialMediaIcons {
+  margin-left: auto;
+}
+
+/*================= MEDIA QUERIES =================*/
+@media (max-width: 888px) {
+  .footer {
+    padding: 0 32px;
+  }
+
+  .main {
+    display: block;
+  }
+
+  .main hr {
+    width: 100%;
+    height: 1px;
+    margin: 0;
+  }
+
+  .contactUs {
+    margin-top: 64px;
+  }
+
+  .contactUs > p {
+    padding: 20px 0;
+    font-size: 1rem;
+  }
+
+  .contactUs form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+
+  .headingContainer > h3 {
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+  }
+
+  .subscribe > p:first-child {
+    padding-top: 0 !important;
+  }
+
+  .subscribeForm {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subscribeForm button {
+    margin: 0;
+  }
+
+  .bottom {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logoContainer {
+    margin-right: 0;
+  }
+
+  .copyrightContainer {
+    position: static;
+    transform: translate(0);
+    margin-top: 12px;
+    margin-bottom: 32px;
+  }  
+
+  .socialMediaIcons {
+    margin-left: 0;
+    margin-bottom: 64px;
+  }
+}

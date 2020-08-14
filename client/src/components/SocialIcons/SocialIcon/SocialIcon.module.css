@@ -1,0 +1,12 @@
+.icon {
+  height: 44px;
+  width: 44px;
+  background-color: var(--logo-color);
+  margin: 6px;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+.icon img {
+  height: 100%;
+}

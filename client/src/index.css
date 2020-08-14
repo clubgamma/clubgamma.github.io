@@ -30,10 +30,12 @@ a {
 :root {
   --text-black: #0f1a20;
   --blue-black: #0A2E36;
+  --bg-black: #1F1F1F;
   --dark-blue: #0075A2;
+  --dark-grey: #444444;
   --text-grey: #798071;
-  --logo-color: #D93C3A;
   --grey: #999999;
+  --logo-color: #D8183A;
   --light-grey: #BBBBBB;
   --red: #F42C04;
   --purple: #9C528B;

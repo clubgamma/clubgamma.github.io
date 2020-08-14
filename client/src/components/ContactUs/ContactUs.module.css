@@ -2,6 +2,7 @@
   position: relative;
   min-height: 100vh;
   padding-top: 12vh;
+  overflow: hidden;
 }
 
 .headingContainer {
@@ -56,6 +57,6 @@
   .mask {
     height: 150px;
     top: 900px;
-    left: -100px;
+    left: -50px;
   }
 }

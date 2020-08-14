@@ -8,9 +8,8 @@ const faq = props => {
 
   return (
     <div className={styles.faq}>
-      <div className={styles.headingContainer}>
+      <div className={styles.headingContainer} onClick={() => props.toggleExpand(props.index)}>
         <p
-          onClick={() => props.toggleExpand(props.index)}
           className={styles.heading + ' ' + (props.open ? styles.headingOpen : '')}>
           {props.title}
         </p>
