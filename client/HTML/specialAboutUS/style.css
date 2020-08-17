@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+}
+
+.specialPage {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+.specialPage h1 {
+    font-size: 2.25rem;
+    padding-top: 15vh;
+    padding-bottom: 25px;
+}
+
+.specialPage span {
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #d71e3c;
+    border-radius: 35px;
+}
+
+#bottomLeft {
+    height: 75%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+}
+
+#topRight {
+    height: 75%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(55%, -55%);
+}
+
+#maskGroup1 {
+    position: absolute;
+    height: 35%;
+    top: 50%;
+    left: 0;
+    transform: translate(-40%, -50%);
+}
+
+#maskGroup2 {
+    position: absolute;
+    height: 35%;
+    top: 50%;
+    right: 0;
+    transform: translate(40%, -50%);
+}
+
+.centeredDiv {
+    height: 60vh;
+    width: 75%;
+    margin: 0px auto;
+}
+
+.card {
+    display: inline-block;
+    height: 60vh;
+    width: 33%;
+}
+
+.card img {
+    height: 50%;
+}
+
+.card a {
+    text-decoration: none;
+    color: #d71e3c;
+}
+
+.card p{
+    padding:15px;
+    width: 95%;
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        overflow: scroll;
+    }
+
+    #bottomLeft {
+        display: none;
+    }
+
+    #topRight {
+        display: none;
+    }
+
+    #maskGroup {
+        display: none;
+    }
+
+    #maskGroup1 {
+        display: none;
+    }
+
+    #maskGroup2 {
+        display: none;
+    }
+
+    .specialPage h1 {
+        font-size: 2rem;
+        padding: 0px 20px;
+        padding-top: 15vh;
+        line-height: 3rem;
+    }
+
+    .centeredDiv {
+        height: auto;
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .card {
+        display: block;
+        height: auto;
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .card img {
+        height: 20%;
+    }
+}
