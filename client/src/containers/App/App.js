@@ -5,6 +5,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import Home from '../../components/Home/Home'
 import SideDrawer from '../../components/SideDrawer/SideDrawer'
 import Backdrop from '../../components/Backdrop/Backdrop'
+import Blogs from '../Blogs/Blogs'
 import ContactUs from '../../components/ContactUs/ContactUs'
 import Footer from '../../components/Footer/Footer'
 
@@ -97,8 +98,8 @@ class App extends Component {
 
         <section id="aboutUs" style={{ width: '1px', height: '100vh', paddingTop: '10vh' }}>About Us</section>
         <section id="teams" style={{ width: '1px', height: '100vh', paddingTop: '10vh' }}>Teams</section>
-        <section id="blogs" style={{ width: '1px', height: '100vh', paddingTop: '10vh' }}>Blogs</section>
 
+        <Blogs />
         <ContactUs />
         <Footer />
       </Fragment>
