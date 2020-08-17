@@ -4,12 +4,32 @@ import axios from 'axios'
 import styles from './Blogs.module.css'
 import ellipseImg from '../../assets/images/Ellipse.png'
 import maskImg from '../../assets/images/Mask_Group.png'
+import Modal from '../../components/Modal/Modal'
+import BackDrop from '../../components/Backdrop/Backdrop'
 import Heading from '../../components/Heading/Heading'
 import Blog from '../../components/Blog/Blog'
 
 class Blogs extends Component {
   state = {
+    isModalOpen: false,
+    modalDetails: '',
     blogs: []
+  }
+
+  backdropClickHandler = () => {
+    this.setState({ isModalOpen: false })
+  }
+
+  displayBlogHandler = filename => {
+    console.log('https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/Blogs/' + filename)
+    axios
+      .get('https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/Blogs/' + filename)
+      .then(res => {
+        this.setState({ isModalOpen: true, modalDetails: res.data })
+      })
+      .catch(err => {
+        console.log(err)
+      })
   }
 
   componentDidMount() {
@@ -26,6 +46,10 @@ class Blogs extends Component {
   render() {
     return (
       <section id="blogs" className={styles.blogs}>
+        {this.state.isModalOpen ? <BackDrop click={this.backdropClickHandler} /> : null}
+        {this.state.isModalOpen
+          ? <Modal description={this.state.modalDetails} close={this.backdropClickHandler} />
+          : null}
         <div className={styles.headingContainer}>
           <Heading>What <span>events</span> we did ?</Heading>
           <p>This is timeline of events organized by Club Gamma and also the insightful blogs written by Team Gamma</p>
@@ -37,6 +61,7 @@ class Blogs extends Component {
               order="L2R"
               total={this.state.blogs.length}
               current={index}
+              onBtnClick={this.displayBlogHandler}
               key={index}
             />
             : <Blog
@@ -44,6 +69,7 @@ class Blogs extends Component {
               order="R2L"
               total={this.state.blogs.length}
               current={index}
+              onBtnClick={this.displayBlogHandler}
               key={index}
             />
         )}
