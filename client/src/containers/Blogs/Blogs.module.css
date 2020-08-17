@@ -1,0 +1,71 @@
+.blogs {
+  position: relative;
+  min-height: 100vh;
+  padding-top: 12vh;
+}
+
+.headingContainer {
+  width: 35vw;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.headingContainer > p {
+  margin: 32px;
+  color: var(--blue-black);
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+
+.ellipse1 {
+  position: absolute;
+  right: -150px;
+  top: -70px;
+  height: 300px;
+  z-index: -1;
+}
+
+.ellipse2 {
+  position: absolute;
+  left: -120px;
+  top: 555px;
+  height: 350px;
+  z-index: -1;
+}
+
+.mask {
+  position: absolute;
+  left: -60px;
+  top: 1200px;
+  height: 180px;
+  z-index: -1;
+}
+
+/*================= MEDIA QUERIES =================*/
+@media (max-width: 888px) {
+  .headingContainer {
+    width: 100vw;
+    margin-bottom: 150px;
+  }
+
+  .headingContainer > p {
+    margin-top: 24px;
+  }
+
+  .ellipse1 {
+    right: -130px;
+    top: -150px;
+    height: 250px;
+  }
+
+  .ellipse2 {
+    height: 300px;
+    top: 650px;
+    left: -130px;
+  }
+
+  .mask {
+    height: 150px;
+  }
+}

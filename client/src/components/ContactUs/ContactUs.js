@@ -8,7 +8,6 @@ import FAQs from '../../containers/FAQs/FAQs'
 
 const contactUs = props => {
   return (
-    // <footer  style={{ width: '1px', height: '100vh', paddingTop: '10vh' }}>Contact Us</footer>
     <section id="contactUs" className={styles.contactUs}>
       <div className={styles.headingContainer}>
         <p>FAQs</p>
