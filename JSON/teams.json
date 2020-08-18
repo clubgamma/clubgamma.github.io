@@ -1,0 +1,131 @@
+{
+  "teams": [
+    [
+      {
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/harsh-jobanputra-min.png",
+        "position": "MENTOR",
+        "name": "Harsh Jobanputra",
+        "social": {
+          "linkedin": "",
+          "instagram": "",
+          "github": "",
+          "twitter": ""
+        }
+      },
+      {
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/jay-khatri-min.jpg",
+        "position": "GITHUB CAMPUS EXPERT",
+        "name": "Jay Khatri",
+        "social": {
+          "linkedin": "",
+          "instagram": "",
+          "github": "",
+          "twitter": ""
+        }
+      },
+      {
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/isha-khimsurya-min.jpg",
+        "position": "MENTOR",
+        "name": "Isha Khimsurya",
+        "social": {
+          "linkedin": "",
+          "instagram": "",
+          "github": "",
+          "twitter": ""
+        }
+      }
+    ],
+    [
+      {
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/yash-paneliya-min.png",
+        "position": "CLUB MANAGER",
+        "name": "Yash Paneliya",
+        "social": {
+          "linkedin": "",
+          "instagram": "",
+          "github": "",
+          "twitter": ""
+        }
+      },
+      {
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/dhruv-patel-min.jpeg",
+        "position": "CLUB MANAGER",
+        "name": "Dhruv Patel",
+        "social": {
+          "linkedin": "",
+          "instagram": "",
+          "github": "",
+          "twitter": ""
+        }
+      },
+      {
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/shreyanshi-shah-min.jpg",
+        "position": "Content Writer",
+        "name": "Shreyanshi Shah",
+        "social": {
+          "linkedin": "",
+          "instagram": "",
+          "github": "",
+          "twitter": ""
+        }
+      },
+      {
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/harsh-patel-min.jpg",
+        "position": "MOBILE EXPERT",
+        "name": "Harsh Patel",
+        "social": {
+          "linkedin": "",
+          "instagram": "",
+          "github": "",
+          "twitter": ""
+        }
+      }
+    ],
+    [
+      {
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/chirayu-joshi-min.jpg",
+        "position": "WEB EXPERT",
+        "name": "Chirayu Joshi",
+        "social": {
+          "linkedin": "",
+          "instagram": "",
+          "github": "",
+          "twitter": ""
+        }
+      },
+      {
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/shubham-raval-min.jpg",
+        "position": "WEB EXPERT",
+        "name": "Shubham Raval",
+        "social": {
+          "linkedin": "",
+          "instagram": "",
+          "github": "",
+          "twitter": ""
+        }
+      },
+      {
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/rudra-barad-min.jpg",
+        "position": "GRAPHIC DESIGNER",
+        "name": "Rudra Barad",
+        "social": {
+          "linkedin": "",
+          "instagram": "",
+          "github": "",
+          "twitter": ""
+        }
+      },
+      {
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/saumya-shah-min.jpg",
+        "position": "GRAPHIC DESIGNER",
+        "name": "Saumya Shah",
+        "social": {
+          "linkedin": "",
+          "instagram": "",
+          "github": "",
+          "twitter": ""
+        }
+      }
+    ]
+  ]
+}

@@ -1,0 +1,60 @@
+.teams {
+  min-height: 100vh;
+  padding-top: 12vh;
+  margin-bottom: 200px;
+}
+
+.headingContainer {
+  width: 35vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.headingContainer > p {
+  margin: 32px;
+  color: var(--blue-black);
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+
+.row {
+  display: flex;
+  width: 85vw;
+  margin: 86px auto 24px auto;
+  justify-content: space-around;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+}
+
+.profileImg {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.position {
+  padding: 8px 16px;
+  margin-top: 44px;
+  margin-bottom: 24px;
+  border-radius: 16px;
+  color: white;
+  background-color: var(--logo-color);
+}
+
+.name {
+  font-size: 1.8rem;
+}
+
+.socialIcons img {
+  height: 40px;
+  margin: 24px 6px;
+  filter: brightness(0%);
+}
+
+.socialIcons img:hover {
+  filter: none;
+}

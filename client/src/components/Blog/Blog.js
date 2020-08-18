@@ -3,6 +3,7 @@ import React from 'react'
 import styles from './Blog.module.css'
 import rightArrow from '../../assets/images/right_arrow.svg'
 import Heading from '../Heading/Heading'
+import Button from '../Button/Button'
 
 const blogsTimeline = props => {
   const orderStyle = (props.order === 'R2L' ? styles.r2l : '')
@@ -49,9 +50,9 @@ const blogsTimeline = props => {
       <div className={styles.description}>
         <Heading>{props.data.title}</Heading>
         <p>{props.data.description}</p>
-        <button>
+        <Button onClick={() => props.onBtnClick(props.data.filename)}>
           Go to Event <img src={rightArrow} className={styles.rightArrow} alt="right arrow" />
-        </button>
+        </Button>
       </div>
     </div>
   )
