@@ -5,6 +5,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import Home from '../../components/Home/Home'
 import SideDrawer from '../../components/SideDrawer/SideDrawer'
 import Backdrop from '../../components/Backdrop/Backdrop'
+import Teams from '../Teams/Teams'
 import Blogs from '../Blogs/Blogs'
 import ContactUs from '../../components/ContactUs/ContactUs'
 import Footer from '../../components/Footer/Footer'
@@ -56,8 +57,9 @@ class App extends Component {
       // Cursor animations
       const cursor = document.getElementById('cursor')
       const links = Array.prototype.slice.call(document.querySelectorAll('a'))
-      const headings = Array.prototype.slice.call(document.querySelectorAll('h1'))
-      const enlargeCursorOn = links.concat(headings)
+      const headings = Array.prototype.slice.call(document.querySelectorAll('h2'))
+      const btns = Array.prototype.slice.call(document.querySelectorAll('button'))
+      const enlargeCursorOn = links.concat(headings.concat(btns))
 
       document.addEventListener('mousemove', e => {
         const { clientX, clientY } = e
@@ -70,8 +72,8 @@ class App extends Component {
           cursor.style.height = '20px'
         })
         element.addEventListener('mouseover', () => {
-          cursor.style.width = '44px'
-          cursor.style.height = '44px'
+          cursor.style.width = '50px'
+          cursor.style.height = '50px'
         })
       })
     }
@@ -95,10 +97,8 @@ class App extends Component {
         {backdrop}
 
         <Home />
-
         <section id="aboutUs" style={{ width: '1px', height: '100vh', paddingTop: '10vh' }}>About Us</section>
-        <section id="teams" style={{ width: '1px', height: '100vh', paddingTop: '10vh' }}>Teams</section>
-
+        <Teams />
         <Blogs />
         <ContactUs />
         <Footer />
