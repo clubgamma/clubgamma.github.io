@@ -13,10 +13,34 @@ body {
     width: 100%;
 }
 
+#topLeft {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 60%;
+    transform: translate(-50%, -50%);
+}
+
+#topRight {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 40%;
+    transform: translate(50%, -50%);
+}
+
+#bottomRight {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 60%;
+    transform: translate(50%, 50%);
+}
+
 .abtLeft {
-    margin-top: 20vh;
+    margin-top: 25vh;
     height: 80vh;
-    width: 50%;
+    width: 40%;
     float: left;
 }
 
@@ -28,15 +52,16 @@ body {
 
 .abtLeft span {
     color: #ffffff;
-    padding: 10px 25px;
+    padding: 5px 20px;
     border-radius: 35px;
     background-color: #d71e3c;
 }
 
 .abtLeft h1 {
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 50px;
     padding-bottom: 15px;
+    color: #d71e3c;
 }
 
 .abtLeft blockquote {
@@ -48,13 +73,13 @@ body {
 .abtRight {
     margin-top: 10vh;
     height: 80vh;
-    width: 50%;
+    width: 60%;
     float: right;
     text-align: center;
 }
 
 .abtRight img {
-    width: 70%;
+    width: 60%;
     margin: 0px auto;
     display: block;
 }
@@ -71,6 +96,18 @@ body {
         height: auto;
     }
 
+    #topLeft {
+        display: none;
+    }
+
+    #topRight {
+        display: none;
+    }
+
+    #bottomRight {
+        display: none;
+    }
+
     .abtLeft {
         margin-top: 20vh;
         height: auto;
@@ -82,7 +119,7 @@ body {
         left: 0;
         right: 0;
         display: block;
-        margin:0;
+        margin: 0;
         margin: 0px auto;
         width: 80%;
     }
@@ -109,7 +146,7 @@ body {
     }
 
     .abtLeft p {
-            text-align: justify;
+        text-align: justify;
     }
 
     .abtRight {
