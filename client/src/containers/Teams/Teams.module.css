@@ -1,4 +1,5 @@
 .teams {
+  position: relative;
   min-height: 100vh;
   padding-top: 12vh;
   margin-bottom: 200px;
@@ -15,6 +16,22 @@
   color: var(--blue-black);
   letter-spacing: 1px;
   line-height: 28px;
+}
+
+.ellipse {
+  position: absolute;
+  left: -100px;
+  top: -120px;
+  height: 380px;
+  z-index: -1;
+}
+
+.mask {
+  position: absolute;
+  left: 60px;
+  bottom: -300px;
+  height: 220px;
+  z-index: -1;
 }
 
 .row {
@@ -57,4 +74,44 @@
 
 .socialIcons img:hover {
   filter: none;
+}
+
+/*================= MEDIA QUERIES =================*/
+@media (max-width: 888px) {
+  .headingContainer {
+    width: 98vw;
+  }
+
+  .headingContainer > p {
+    margin-top: 24px;
+  }
+
+  .ellipse {
+    height: 200px;
+    left: -60px;
+  }
+
+  .mask {
+    height: 160px;
+    bottom: -130px;
+    left: -40px;
+  }
+
+  .row {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .profile {
+    margin: 24px auto;
+  }
+
+  .position {
+    margin-top: 32px;
+    margin-bottom: 16px;
+  }
+
+  .socialIcons img {
+    margin: 14px 6px;
+  }
 }

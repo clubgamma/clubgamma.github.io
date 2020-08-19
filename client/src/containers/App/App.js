@@ -5,6 +5,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import Home from '../../components/Home/Home'
 import SideDrawer from '../../components/SideDrawer/SideDrawer'
 import Backdrop from '../../components/Backdrop/Backdrop'
+import AboutUs from '../../components/AboutUs/AboutUs'
 import Teams from '../Teams/Teams'
 import Blogs from '../Blogs/Blogs'
 import ContactUs from '../../components/ContactUs/ContactUs'
@@ -97,7 +98,7 @@ class App extends Component {
         {backdrop}
 
         <Home />
-        <section id="aboutUs" style={{ width: '1px', height: '100vh', paddingTop: '10vh' }}>About Us</section>
+        <AboutUs />
         <Teams />
         <Blogs />
         <ContactUs />

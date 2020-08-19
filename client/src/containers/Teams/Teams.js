@@ -2,11 +2,13 @@ import React, { Component } from 'react'
 import axios from 'axios'
 
 import styles from './Teams.module.css'
-import Heading from '../../components/Heading/Heading'
 import linkedinSvg from '../../assets/images/social_icons/logo-colored/linkedin.svg'
 import instagramSvg from '../../assets/images/social_icons/logo-colored/instagram.svg'
 import githubSvg from '../../assets/images/social_icons/logo-colored/github.svg'
 import twitterSvg from '../../assets/images/social_icons/logo-colored/twitter.svg'
+import ellipseImg from '../../assets/images/Ellipse.png'
+import maskImg from '../../assets/images/Mask_Group.png'
+import Heading from '../../components/Heading/Heading'
 
 class Teams extends Component {
   state = {
@@ -48,6 +50,8 @@ class Teams extends Component {
             ))}
           </div>
         ))}
+        <img src={ellipseImg} className={styles.ellipse} alt="ellipse" />
+        <img src={maskImg} className={styles.mask} alt="mask" />
       </section>
     )
   }

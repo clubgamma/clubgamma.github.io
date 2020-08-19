@@ -1,0 +1,92 @@
+.specialPage {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+
+.specialPage h1 {
+  font-size: 2.25rem;
+  padding-top: 15vh;
+  padding-bottom: 25px;
+}
+
+.specialPage span {
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: var(--logo-color);
+  border-radius: 35px;
+}
+
+.centeredDiv {
+  height: 60vh;
+  width: 75%;
+  margin: 0px auto;
+}
+
+.card {
+  display: inline-block;
+  height: 60vh;
+  width: 33%;
+}
+
+.card img {
+  height: 50%;
+}
+
+.card a {
+  text-decoration: none;
+  color: var(--logo-color);
+}
+
+.card p{
+  padding:15px;
+  width: 95%;
+}
+
+.topRight {
+  height: 75%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(55%, -55%);
+}
+
+.mask {
+  position: absolute;
+  height: 35%;
+  top: 50%;
+  left: 0;
+  transform: translate(-40%, -50%);
+}
+
+/*================= MEDIA QUERIES =================*/
+@media (max-width: 888px) {
+  .specialPage h1 {
+    font-size: 2rem;
+    padding: 0px 20px;
+    padding-top: 15vh;
+    line-height: 3rem;
+  }
+
+  .centeredDiv {
+    height: auto;
+    width: 90%;
+    margin: 0px auto;
+  }
+
+  .card {
+    display: block;
+    height: auto;
+    width: 90%;
+    margin: 0px auto;
+  }
+
+  .card img {
+    height: 20%;
+  }
+
+  .topRight, .mask {
+    display: none;
+  }
+}

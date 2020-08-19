@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="307" height="307" viewBox="0 0 307 307">
+  <defs>
+    <filter id="Ellipse_57" x="36" y="36" width="271" height="271" filterUnits="userSpaceOnUse">
+      <feOffset dx="18" dy="18" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-color="#d1d9e6" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_58" x="0" y="0" width="271" height="271" filterUnits="userSpaceOnUse">
+      <feOffset dx="-18" dy="-18" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-2"/>
+      <feFlood flood-color="#d1d9e6" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_201" data-name="Group 201" transform="translate(-303 -3630)">
+    <g id="Group_200" data-name="Group 200" transform="translate(42)">
+      <g id="Group_199" data-name="Group 199" transform="translate(0 23)">
+        <g id="Group_198" data-name="Group 198" transform="translate(88 149)">
+          <g id="Group_195" data-name="Group 195" transform="translate(-394 31)">
+            <g transform="matrix(1, 0, 0, 1, 567, 3427)" filter="url(#Ellipse_57)">
+              <circle id="Ellipse_57-2" data-name="Ellipse 57" cx="90.5" cy="90.5" r="90.5" transform="translate(63 63)" fill="#fff"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 567, 3427)" filter="url(#Ellipse_58)">
+              <circle id="Ellipse_58-2" data-name="Ellipse 58" cx="90.5" cy="90.5" r="90.5" transform="translate(63 63)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+        <text id="_3" data-name="3" transform="translate(414 3784)" font-size="56" font-family="SegoeUI, Segoe UI"><tspan x="-15.094" y="0">3</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
