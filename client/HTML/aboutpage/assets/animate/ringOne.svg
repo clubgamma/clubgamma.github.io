@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="486" height="448" viewBox="0 0 486 448">
+  <g id="Group_214" data-name="Group 214" transform="translate(-1309 -2616)">
+    <g id="Ellipse_53" data-name="Ellipse 53" transform="translate(1309 2616)" fill="none" stroke="#000" stroke-width="1" opacity="0.89">
+      <circle cx="224" cy="224" r="224" stroke="none"/>
+      <circle cx="224" cy="224" r="223.5" fill="none"/>
+    </g>
+    <g id="Group_211" data-name="Group 211">
+      <g id="Ellipse_355" data-name="Ellipse 355" transform="translate(1700 2828)" fill="#fff" stroke="#000" stroke-width="2">
+        <circle cx="47.5" cy="47.5" r="47.5" stroke="none"/>
+        <circle cx="47.5" cy="47.5" r="46.5" fill="none"/>
+      </g>
+      <text id="_1" data-name="1" transform="translate(1748 2898)" font-size="56" font-family="Roboto-Regular, Roboto"><tspan x="-15.723" y="0">1</tspan></text>
+    </g>
+  </g>
+</svg>

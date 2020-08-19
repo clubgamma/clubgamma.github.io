@@ -9,7 +9,7 @@ body {
 }
 /* About Us */
 .aboutUs {
-    height: 100vh;
+    height: 200vh;
     width: 100%;
 }
 
@@ -17,7 +17,7 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    height: 60%;
+    height: 366;
     transform: translate(-50%, -50%);
 }
 
@@ -25,7 +25,7 @@ body {
     position: absolute;
     top: 0px;
     right: 0px;
-    height: 40%;
+    height: 276;
     transform: translate(50%, -50%);
 }
 
@@ -33,14 +33,14 @@ body {
     position: absolute;
     bottom: 0px;
     right: 0px;
-    height: 60%;
+    height: 366;
     transform: translate(50%, 50%);
 }
 
 .abtLeft {
     margin-top: 25vh;
     height: 80vh;
-    width: 40%;
+    width: 50%;
     float: left;
 }
 
@@ -52,36 +52,51 @@ body {
 
 .abtLeft span {
     color: #ffffff;
-    padding: 5px 20px;
-    border-radius: 35px;
+    padding: 4px 20px;
+    border-radius: 74px;
     background-color: #d71e3c;
+    margin-right: 4px;
 }
 
 .abtLeft h1 {
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 94px;
     padding-bottom: 15px;
     color: #d71e3c;
 }
 
+.line{
+    position: absolute;
+    left: 0px;
+    width: 6%;
+    transform: translateY(12px);
+}
+
+.abtLeft p{
+    font-size: 24px;
+    letter-spacing: 64;
+}
+
 .abtLeft blockquote {
     padding-bottom: 30px;
+    font-size: 34px;
     font-style: italic;
     color: #212121;
 }
 
 .abtRight {
-    margin-top: 10vh;
-    height: 80vh;
-    width: 60%;
+    height: 100vh;
+    width: 50%;
     float: right;
     text-align: center;
 }
 
-.abtRight img {
-    width: 60%;
-    margin: 0px auto;
-    display: block;
+.abtRight img{
+    position: absolute;
+    top:50%;
+    right: 25%;
+    transform: translate(50%,-50%);
+    height: 896px;
 }
 
 /* For responsive design */
@@ -109,7 +124,7 @@ body {
     }
 
     .abtLeft {
-        margin-top: 20vh;
+        margin-top: 10vh;
         height: auto;
         width: 100%;
         float: none;
@@ -143,10 +158,16 @@ body {
         padding-bottom: 30px;
         font-style: italic;
         color: #212121;
+        font-size: 20px;
+    }
+
+    .line{
+        display: none;
     }
 
     .abtLeft p {
-        text-align: justify;
+        font-size: 18px;
+        text-align: center;
     }
 
     .abtRight {
@@ -158,8 +179,13 @@ body {
     }
 
     .abtRight img {
-        width: 90%;
+        position: relative;
+        width: 100%;
+        height: auto;
         margin: 0px auto;
         display: block;
+        transform: none;
+        right: 0;
+        left: 0px;
     }
 }
