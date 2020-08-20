@@ -1,9 +1,9 @@
 import React from 'react'
 
 import styles from './SpecialAboutUs.module.css'
-import oneSvg from '../../../assets/images/SVGs/one.svg'
-import twoSvg from '../../../assets/images/SVGs/two.svg'
-import threeSvg from '../../../assets/images/SVGs/three.svg'
+import seminarsSvg from '../../../assets/images/SVGs/seminars.svg'
+import workshopsSvg from '../../../assets/images/SVGs/workshops.svg'
+import hackathonsSvg from '../../../assets/images/SVGs/hackathons.svg'
 import ellipse from '../../../assets/images/SVGs/Ellipse62.svg'
 import mask from '../../../assets/images/SVGs/MaskGroup4.svg'
 
@@ -14,22 +14,22 @@ const specialAboutUs = props =>
     <h1>What's <span>special</span> about us ?</h1>
     <div className={styles.centeredDiv}>
       <div className={styles.card}>
-        <img src={oneSvg} alt="" />
-        <h2>Lorem Ipsum</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur eos hic, quam animi debitis ab.</p>
-        <a href="#">Learn More &rarr;</a>
+        <img src={seminarsSvg} alt="" />
+        <h2>Technical Workshop</h2>
+        <p>We arrange workshops on latest technology with hands-on sessions. All workshops offer sound knowledge of the applied domain and serve justice to impart the best for the community.</p>
+        {/* <a href="#">Learn More &rarr;</a> */}
       </div>
       <div className={styles.card}>
-        <img src={twoSvg} alt="" />
-        <h2>Lorem Ipsum</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur eos hic, quam animi debitis ab.</p>
-        <a href="#">Learn More &rarr;</a>
+        <img src={workshopsSvg} alt="" />
+        <h2>Seminar with Industry experts</h2>
+        <p>We arrange special seminars with Industry experts from Facebook, Amazon etc so that students can get inspired from their journey and can ask questions for better knowledge. The guidance from already excelled experts always marks a benchmark in career.</p>
+        {/* <a href="#">Learn More &rarr;</a> */}
       </div>
       <div className={styles.card}>
-        <img src={threeSvg} alt="" />
-        <h2>Lorem Ipsum</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur eos hic, quam animi debitis ab.</p>
-        <a href="#">Learn More &rarr;</a>
+        <img src={hackathonsSvg} alt="" />
+        <h2>Hackathons</h2>
+        <p>Club Gamma actively arranges Hackathons to encourage students to brainstorm with their ideas and develop which makes them standout. To increase the excitement we credit winners and performers with goodies and schwags.</p>
+        {/* <a href="#">Learn More &rarr;</a> */}
       </div>
     </div>
   </div>

@@ -11,12 +11,12 @@ import youtubeSvg from '../../assets/images/social_icons/youtube.svg'
 
 const socialIcons = props =>
   <div className={styles.iconsContainer}>
-    <Icon src={githubSvg} href="#" />
-    <Icon src={facebookSvg} href="#" />
-    <Icon src={instagramSvg} href="#" />
-    <Icon src={linkedinSvg} href="#" />
-    <Icon src={twitterSvg} href="#" />
-    <Icon src={youtubeSvg} href="#" />
+    <Icon src={githubSvg} href="https://github.com/clubgamma" />
+    <Icon src={facebookSvg} href="https://www.facebook.com/clubgamma/" />
+    <Icon src={instagramSvg} href="https://www.instagram.com/club_gamma/" />
+    <Icon src={linkedinSvg} href="https://www.linkedin.com/company/clubgamma/" />
+    <Icon src={twitterSvg} href="https://twitter.com/club_gamma" />
+    <Icon src={youtubeSvg} href="https://www.youtube.com/channel/UCFO_j0Kml2tT3aFgVUSYGxQ" />
   </div>
 
 export default socialIcons

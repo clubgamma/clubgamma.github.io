@@ -10,13 +10,14 @@ const aboutPage = props =>
         <h1><span>club</span> gamma</h1>
         <blockquote>the more diversity, the better community</blockquote>
         <p>
-          Club Gamma is an official student tech community under GitHub campus Expert, it is to enrich
-          the Technology enthusiastic students on the campus, ranging from newbie coders to experts in
-          industry and other academic domains. The main objective of the club is to simplify the diverse
-          nature and embrace it to form a better community. Club arranges various workshops, seminars,
-          hands-on programs, personality building lectures by the best people in the domain to benefit the
-          entire student community. Club Gamma dedicates itself for the empowerment of the student
-          community and will keep doing efforts to enrich it.
+          Club Gamma envisages a conducive platform to explore student’s latent Tech talents
+          and also to enable them to come out with their innovative ideas by arranging various Hackathons,
+          workshops etc. For the all-round development of the students and to enrich their technical
+          knowledge Club provides a platform with guidance and profound seminars with Industry experts.
+          Club Gamma not only works for the students to explore their Technical skills but also help in areas
+          such as personality development and inculcate the spirit of excelling by providing them with a
+          platform for hosting their technical talents. The focus of the club primarily is to help the students
+          gain practical as well as theoretical technical knowledge.
         </p>
       </div>
     </div>

@@ -1,6 +1,6 @@
 .specialPage {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   text-align: center;
 }
@@ -19,19 +19,23 @@
 }
 
 .centeredDiv {
+  display: flex;
+  justify-content: space-around;
   height: 60vh;
   width: 75%;
-  margin: 0px auto;
+  margin: 64px auto;
 }
 
 .card {
   display: inline-block;
   height: 60vh;
-  width: 33%;
+  width: 30%;
 }
 
 .card img {
-  height: 50%;
+  height: 230px;
+  width: 290px;
+  padding-top: 50px;
 }
 
 .card a {
@@ -39,9 +43,15 @@
   color: var(--logo-color);
 }
 
+.card h2 {
+  margin-top: 48px;
+}
+
 .card p{
-  padding:15px;
+  padding: 15px;
   width: 95%;
+  word-spacing: 1px;
+  color: var(--dark-grey);
 }
 
 .topRight {
@@ -73,17 +83,24 @@
     height: auto;
     width: 90%;
     margin: 0px auto;
+    margin-bottom: 72px;
+    flex-direction: column;
   }
 
   .card {
     display: block;
     height: auto;
     width: 90%;
-    margin: 0px auto;
+    margin: 24px auto;
   }
 
   .card img {
     height: 20%;
+  }
+
+  .card p {
+    width: 100%;
+    padding: 15px 0;
   }
 
   .topRight, .mask {

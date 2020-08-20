@@ -2,7 +2,7 @@ import React from 'react'
 
 import styles from './AppPage.module.css'
 import playstoreSvg from '../../../assets/images/SVGs/playstore.svg'
-import appstoreSvg from '../../../assets/images/SVGs/appstore.svg'
+// import appstoreSvg from '../../../assets/images/SVGs/appstore.svg'
 import mobileSvg from '../../../assets/images/SVGs/mobile.svg'
 import ellipseSvg from '../../../assets/images/SVGs/Ellipse51.svg'
 import maskSvg from '../../../assets/images/SVGs/MaskGroup3.svg'
@@ -13,12 +13,12 @@ const appPage = props =>
       <div className={styles.centerDiv}>
         <h1><span>Club Gamma</span> App</h1>
         <p>A Full featured app made with latest technology which is available on both and android</p>
-        <a href="#">See Features &rarr;</a>
+        <a href="https://play.google.com/store/apps/details?id=com.gce.clubgamma" rel="noopener noreferrer">See Features &rarr;</a>
       </div>
       <div className={styles.colThree}>
-        <img src={playstoreSvg} alt="googleplay" />
-        <br />
-        <img src={appstoreSvg} alt="appstore" />
+        <img src={playstoreSvg} alt="googleplay" onClick={() => window.open('https://play.google.com/store/apps/details?id=com.gce.clubgamma')} />
+        {/* <br />
+        <img src={appstoreSvg} alt="appstore" /> */}
       </div>
     </div>
     <div className={styles.colTwo}>
