@@ -5,18 +5,6 @@
       "title": "Intro to Git and GitHub",
       "description": "This was very first event by Club Gamma which was aimed to spread awareness about Git and GitHub in each and every student who are going to soon work in professional environment",
       "filename": "intro_to_git_and_github.md"
-    },
-    {
-      "date": "29th Aug 2020",
-      "title": "How to get into MNC's",
-      "description": "This was an internactive session on how to get into MNC's with an ease & better preparation. Anjali who is an intern at facebook was the guest at this event who shared his experience",
-      "filename": "how_to_get_into_mncs.md"
-    },
-    {
-      "date": "01st Sep 2020",
-      "title": "Blog on Machine Learning",
-      "description": "This blog explains that what path should beginner follow when try his hands on machine learning for the first time. It help help students understand the core concepts of ML in a very simple and relatable examples",
-      "filename": "blog_on_ml.md"
     }
   ]
 }

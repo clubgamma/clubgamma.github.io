@@ -91,12 +91,112 @@ body {
     text-align: center;
 }
 
-.abtRight img{
+#logo{
     position: absolute;
-    top:50%;
+    top: 50%;
     right: 25%;
+    width: 150px;
+    height: 200px;
+    margin: 0px auto;
     transform: translate(50%,-50%);
-    height: 896px;
+}
+
+#fOne{
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    margin: 0px auto;
+    transform: translate(50%,-50%);
+    transition: ease 155ms;
+}
+
+#ballOne{
+    position: absolute;
+    z-index: 1;
+    height: 40px;
+    width: 40px;
+    transform: translate(430px,190px);
+}
+
+#rOne{
+    width: 450px;
+    height: 450px;
+    z-index: -1;
+}
+
+#fTwo{
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    margin: 0px auto;
+    transform: translate(50%,-50%);
+    transition: ease 155ms;
+}
+
+#ballTwo{
+    position: absolute;
+    z-index: 1;
+    height: 40px;
+    width: 40px;
+    transform: translate(85px,55px);
+}
+
+#rTwo{
+    opacity: 0.65;
+    width: 590px;
+    height: 590px;
+    z-index: -1;
+}
+
+#fThree{
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    margin: 0px auto;
+    transform: translate(50%,-50%);
+    transition: ease 200ms;
+}
+
+#ballThree{
+    position: absolute;
+    z-index: 1;
+    height: 40px;
+    width: 40px;
+    transform: translate(30px,530px);
+}
+
+#rThree{
+    opacity: 0.35;
+    width: 740px;
+    height: 740px;
+    z-index: -1;
+}
+
+#fFour{
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    margin: 0px auto;
+    transform: translate(50%,-50%);
+}
+
+#rFour{
+    opacity: 0.15;
+    width: 890px;
+    height: 890px;
+    z-index: -1;
+}
+
+.mobileAtom{
+    display: none;
 }
 
 /* For responsive design */
@@ -105,7 +205,8 @@ body {
     /* For mobile phones: */
     /* About Us */
     body {
-        overflow: scroll;
+        overflow-x: hidden;
+        overflow-y: scroll;
     }
     .aboutUs {
         height: auto;
@@ -167,7 +268,7 @@ body {
 
     .abtLeft p {
         font-size: 18px;
-        text-align: center;
+        text-align: justify;
     }
 
     .abtRight {
@@ -178,14 +279,13 @@ body {
         text-align: center;
     }
 
-    .abtRight img {
-        position: relative;
-        width: 100%;
-        height: auto;
-        margin: 0px auto;
-        display: block;
-        transform: none;
-        right: 0;
-        left: 0px;
+    #rFour,#fFour,#rThree,#ballThree,#fThree,#rTwo,#ballTwo,#fTwo,#logo,#fOne,#ballOne,#rOne{
+        display: none;
     }
+
+    .mobileAtom{
+        width: 100%;
+        display: block;
+    }
+    
 }
