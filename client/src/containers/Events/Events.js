@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 
-import styles from './Blogs.module.css'
+import styles from './Events.module.css'
 import ellipseImg from '../../assets/images/Ellipse.png'
 import maskImg from '../../assets/images/Mask_Group.png'
 import Modal from '../../components/Modal/Modal'
 import BackDrop from '../../components/Backdrop/Backdrop'
 import Heading from '../../components/Heading/Heading'
-import Blog from '../../components/Blog/Blog'
+import Event from '../../components/Event/Event'
 
 class Blogs extends Component {
   state = {
@@ -45,7 +45,7 @@ class Blogs extends Component {
 
   render() {
     return (
-      <section id="blogs" className={styles.blogs}>
+      <section id="events" className={styles.blogs}>
         {this.state.isModalOpen ? <BackDrop click={this.backdropClickHandler} /> : null}
         {this.state.isModalOpen
           ? <Modal description={this.state.modalDetails} close={this.backdropClickHandler} />
@@ -56,7 +56,7 @@ class Blogs extends Component {
         </div>
         {this.state.blogs.map((blog, index) =>
           index % 2 === 0
-            ? <Blog
+            ? <Event
               data={blog}
               order="L2R"
               total={this.state.blogs.length}
@@ -64,7 +64,7 @@ class Blogs extends Component {
               onBtnClick={this.displayBlogHandler}
               key={index}
             />
-            : <Blog
+            : <Event
               data={blog}
               order="R2L"
               total={this.state.blogs.length}

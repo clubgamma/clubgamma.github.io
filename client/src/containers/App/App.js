@@ -7,7 +7,7 @@ import SideDrawer from '../../components/SideDrawer/SideDrawer'
 import Backdrop from '../../components/Backdrop/Backdrop'
 import AboutUs from '../../components/AboutUs/AboutUs'
 import Teams from '../Teams/Teams'
-import Blogs from '../Blogs/Blogs'
+import Events from '../Events/Events'
 import ContactUs from '../../components/ContactUs/ContactUs'
 import Footer from '../../components/Footer/Footer'
 
@@ -26,6 +26,7 @@ class App extends Component {
       this.setState({ isScrolled: false })
     }
     this.state.sections.forEach(section => {
+      console.log(section.topPosition, window.pageYOffset, section.bottomPosition)
       if (section.topPosition < window.pageYOffset + 125 && section.bottomPosition > window.pageYOffset) {
         this.setState({ activeSection: section.id })
       }
@@ -53,6 +54,14 @@ class App extends Component {
       sections.push({ id: node.hash, topPosition: section.top, bottomPosition: section.bottom })
     })
     this.setState({ sections: sections })
+
+    // setTimeout(() => {
+    //   document.getElementById("navItemsContainer").childNodes.forEach(node => {
+    //     const section = document.getElementById(node.hash.slice(1, node.hash.length)).getBoundingClientRect()
+    //     sections.push({ id: node.hash, topPosition: section.top, bottomPosition: section.bottom })
+    //   })
+    //   this.setState({ sections: sections })
+    // }, 5000)
 
     if (window.screen.width >= 888) {
       // Cursor animations
@@ -99,8 +108,8 @@ class App extends Component {
 
         <Home />
         <AboutUs />
+        <Events />
         <Teams />
-        <Blogs />
         <ContactUs />
         <Footer />
       </Fragment>

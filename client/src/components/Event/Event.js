@@ -1,6 +1,6 @@
 import React from 'react'
 
-import styles from './Blog.module.css'
+import styles from './Event.module.css'
 import rightArrow from '../../assets/images/right_arrow.svg'
 import Heading from '../Heading/Heading'
 import Button from '../Button/Button'
@@ -14,14 +14,6 @@ const blogsTimeline = props => {
 
   let timeline = null
   switch (props.current) {
-    case 0:
-      timeline =
-        <div className={styles.timeline}>
-          <div className={styles.startLine}></div>
-          <div className={styles.circle}></div>
-          {window.screen.width >= 888 ? <div className={styles.line}></div> : null}
-        </div>
-      break
     case (props.total - 1):
       timeline =
         <div className={styles.timeline}>
@@ -30,6 +22,14 @@ const blogsTimeline = props => {
             ? <div className={styles.solidLine}></div>
             : <div className={styles.line}></div>}
           <div className={styles.endLine}></div>
+        </div>
+      break
+    case 0:
+      timeline =
+        <div className={styles.timeline}>
+          <div className={styles.startLine}></div>
+          <div className={styles.circle}></div>
+          {window.screen.width >= 888 ? <div className={styles.line}></div> : null}
         </div>
       break
     default:
