@@ -20,11 +20,13 @@ class App extends Component {
   }
 
   handleScroll = () => {
+    // Navbar bottom line
     if (window.pageYOffset > 0) {
       this.setState({ isScrolled: true })
     } else {
       this.setState({ isScrolled: false })
     }
+    // Navbar active section
     this.state.sections.forEach(section => {
       console.log(section.topPosition, window.pageYOffset, section.bottomPosition)
       if (section.topPosition < window.pageYOffset + 125 && section.bottomPosition > window.pageYOffset) {
@@ -40,7 +42,7 @@ class App extends Component {
   }
 
   backdropClickHandler = () => {
-    this.setState({ isSideDrawerOpen: false });
+    this.setState({ isSideDrawerOpen: false })
   }
 
   componentDidMount() {
