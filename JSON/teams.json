@@ -59,17 +59,6 @@
         }
       },
       {
-        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/shreyanshi-shah-min.jpg",
-        "position": "CONTENT WRITER",
-        "name": "Shreyanshi Shah",
-        "social": {
-          "linkedin": "https://www.linkedin.com/in/shreyanshishah/",
-          "instagram": "",
-          "github": "https://github.com/shreyanshi0909",
-          "twitter": "https://twitter.com/shreyanshi_shah?s=03"
-        }
-      },
-      {
         "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/harsh-patel-min.jpg",
         "position": "MOBILE EXPERT",
         "name": "Harsh Patel",
