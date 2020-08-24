@@ -5,6 +5,12 @@
       "title": "Intro to Git and GitHub",
       "description": "It was 3 hours hands-on workshop which was conducted by our club for all students to learn Git & GitHub so that they can collaborate on professional projects with other developers.",
       "filename": "intro_to_git_and_github.md"
+    },
+    {
+      "date": "29th Aug 2020",
+      "title": "Nailing Coding Interviews",
+      "description": "This event will be useful for pre-final and final year students placements are starting. This event will mostly focus on how to crack coding interviews at good product based companies, What care should be taken and how to apply for the interview and getting into it.",
+      "filename": "nailing_coding_interviews.md"
     }
   ]
 }
