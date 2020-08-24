@@ -1,20 +1,40 @@
-# Being a Core Team at Club Gamma
-🚩 Where you be a Core of the Club Gamma
+# Introduction to Git and GitHub
+It was 3 hours hands-on workshop which was conducted by our club for all students to learn Git & GitHub so that they can collaborate on professional projects with other developers. Introduced university students to Git and Github so that they can efficiently use open source and make the most out of it. Target audience of this workshop were second and third year students. 
 
-This repository is for:
-- Tracking and talking about the activities you are doing,
-- Anything else you need to be an active Core Team !
+Workshop was taken by [Rudra Barad](https://github.com/rudrabarad/) and [Chirayu Joshi](https://github.com/chirayu-joshi)
 
-## How it works:
+### 1. Intro Part
 
-- 🚩 An issue to submit the weekly report will be opened every weekend 
-- 👍 Tell us what you have done in the week in the report
-- ⚠️ Remove the label of your name
-- ✅ [Jay](https://github.com/jayskhatri) will Close the issue 
+- What is Version Controlling?
+- How to do it? (Intro to Git & GitHub)
+- Installation Process
 
-## For the fast submitting report in the issue 🕗
-*In the busy world save your 1 minute by doing this* 🙂
+### 2. Starting with GitHub
 
-So make sure you upload a post event report by using this [template](https://github.com/clubgamma/team-reporting/blob/master/templates/weekly-report.md).
+- Basics Terms of GitHub
+- Tour of GitHub website
 
-You can store template in your saved replies by following this [guide](https://github.blog/2016-03-29-saved-replies/)
+### 3. Functions of GitHub
+
+ - Creating a repo with Git GUI and also from Website
+ - What is README ?
+ - Creating, Editing, Committing and Pushing first file through website
+ - Creating issue
+ - Creating pull request
+ - Merging pull request
+ - Solving git conflicts
+
+### 4. Git CLI
+
+ - Intro to GitBash
+ - Using inside any IDE (i.e VSCode)
+ - All the operations using Git CLI
+
+### 5. Discussion Part
+
+ - What is open source project?
+ - Student Developer Pack (You can get the SDP from [here](https://bit.ly/clubgamma-devpack))
+ - GitHub Developer Program
+ - GitHub Pages (Just brief intro)
+
+_For more resources you can visit this [repository](https://github.com/clubgamma/GitHub-Workshop)_
