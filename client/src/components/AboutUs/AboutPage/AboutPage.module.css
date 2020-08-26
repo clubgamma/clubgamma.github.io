@@ -104,6 +104,7 @@
   .aboutUs {
     height: auto;
     flex-direction: column;
+    margin-top: 10vh;
   }
 
   .abtLeft {
@@ -153,7 +154,7 @@
   }
 
   .abtRight {
-    height: 20vh;
+    height: 30vh;
     width: 100%;
   }
 

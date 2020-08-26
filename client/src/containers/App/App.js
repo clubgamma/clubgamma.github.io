@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react'
+import { Route } from 'react-router-dom'
 
 import Cursor from '../../components/Cursor/Cursor'
 import Navbar from '../../components/Navbar/Navbar'
@@ -114,6 +115,7 @@ class App extends Component {
         <Teams />
         <ContactUs />
         <Footer />
+        <Route path="*/verify" component={() => <h2>Verify</h2>} />
       </Fragment>
     )
   }

@@ -12,8 +12,8 @@ const sideDrawer = props => {
   let sections = [
     { id: "#home", name: 'Home' },
     { id: "#aboutUs", name: 'About Us' },
+    { id: "#events", name: 'Events' },
     { id: "#teams", name: 'Teams' },
-    { id: "#blogs", name: 'Blogs' },
     { id: "#contactUs", name: 'Contact Us' }
   ]
   sections.forEach(section => {
