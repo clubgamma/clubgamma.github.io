@@ -100,21 +100,26 @@ class App extends Component {
 
     return (
       <Fragment>
-        <Cursor />
-        <Navbar
-          scrolled={this.state.isScrolled}
-          drawerClickHandler={this.drawerToggleHandler}
-          activeSection={this.state.activeSection}
-        />
-        <SideDrawer show={this.state.isSideDrawerOpen} activeSection={this.state.activeSection} />
-        {backdrop}
+        <Route exact path="/" component={() =>
+          <Fragment>
+            <Cursor />
+            <Navbar
+              scrolled={this.state.isScrolled}
+              drawerClickHandler={this.drawerToggleHandler}
+              activeSection={this.state.activeSection}
+            />
+            <SideDrawer show={this.state.isSideDrawerOpen} activeSection={this.state.activeSection} />
+            {backdrop}
 
-        <Home />
-        <AboutUs />
-        <Events />
-        <Teams />
-        <ContactUs />
-        <Footer />
+            <Home />
+            <AboutUs />
+            <Events />
+            <Teams />
+            <ContactUs />
+            <Footer />
+          </Fragment>
+        }
+        />
         <Route path="*/verify" component={() => <h2>Verify</h2>} />
       </Fragment>
     )
