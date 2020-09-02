@@ -117,7 +117,7 @@ class App extends Component {
         <ContactUs />
         <Footer />
 
-        <Route path={process.env.PUBLIC_URL + '/verify/:id'} component={Verify} />
+        <Route path="/verify/:id" component={Verify} />
       </Fragment>
     )
   }
