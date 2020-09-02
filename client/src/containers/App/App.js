@@ -11,6 +11,7 @@ import Teams from '../Teams/Teams'
 import Events from '../Events/Events'
 import ContactUs from '../../components/ContactUs/ContactUs'
 import Footer from '../../components/Footer/Footer'
+import Verify from '../Verify/Verify'
 
 class App extends Component {
   state = {
@@ -100,27 +101,23 @@ class App extends Component {
 
     return (
       <Fragment>
-        <Route exact path="/" component={() =>
-          <Fragment>
-            <Cursor />
-            <Navbar
-              scrolled={this.state.isScrolled}
-              drawerClickHandler={this.drawerToggleHandler}
-              activeSection={this.state.activeSection}
-            />
-            <SideDrawer show={this.state.isSideDrawerOpen} activeSection={this.state.activeSection} />
-            {backdrop}
-
-            <Home />
-            <AboutUs />
-            <Events />
-            <Teams />
-            <ContactUs />
-            <Footer />
-          </Fragment>
-        }
+        <Cursor />
+        <Navbar
+          scrolled={this.state.isScrolled}
+          drawerClickHandler={this.drawerToggleHandler}
+          activeSection={this.state.activeSection}
         />
-        <Route path="*/verify" component={() => <h2>Verify</h2>} />
+        <SideDrawer show={this.state.isSideDrawerOpen} activeSection={this.state.activeSection} />
+        {backdrop}
+
+        <Home />
+        <AboutUs />
+        <Events />
+        <Teams />
+        <ContactUs />
+        <Footer />
+
+        <Route path="/verify/:id" component={Verify} />
       </Fragment>
     )
   }

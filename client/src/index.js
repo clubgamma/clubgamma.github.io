@@ -8,8 +8,10 @@ import * as serviceWorker from './serviceWorker'
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      {/* <HashRouter basename="/"> */}
       <App />
+      {/* </HashRouter> */}
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
