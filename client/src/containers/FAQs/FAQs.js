@@ -27,6 +27,8 @@ class FAQs extends Component {
     axios
       .get('https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/JSON/FAQs.json')
       .then(res => {
+        console.log(res.data)
+        console.log(res.data.faqs)
         this.setState({ faqs: res.data.faqs })
       })
       .catch(err => {
