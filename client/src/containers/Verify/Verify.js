@@ -29,13 +29,13 @@ const getDate = dateStr => {
   const dateSplitted = dateStr.split('-')
 
   if (st.includes(dateSplitted[0])) {
-    return dateSplitted[0] + 'st ' + months[parseInt(dateSplitted[1]) + 1] + ' ' + dateSplitted[2]
+    return dateSplitted[0] + 'st ' + months[parseInt(dateSplitted[1]) - 1] + ' ' + dateSplitted[2]
   } else if (nd.includes(dateSplitted[0])) {
-    return dateSplitted[0] + 'nd ' + months[parseInt(dateSplitted[1]) + 1] + ' ' + dateSplitted[2]
+    return dateSplitted[0] + 'nd ' + months[parseInt(dateSplitted[1]) - 1] + ' ' + dateSplitted[2]
   } else if (rd.includes(dateSplitted[0])) {
-    return dateSplitted[0] + 'rd ' + months[parseInt(dateSplitted[1]) + 1] + ' ' + dateSplitted[2]
+    return dateSplitted[0] + 'rd ' + months[parseInt(dateSplitted[1]) - 1] + ' ' + dateSplitted[2]
   } else {
-    return dateSplitted[0] + 'th ' + months[parseInt(dateSplitted[1]) + 1] + ' ' + dateSplitted[2]
+    return dateSplitted[0] + 'th ' + months[parseInt(dateSplitted[1]) - 1] + ' ' + dateSplitted[2]
   }
 }
 
