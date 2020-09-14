@@ -41,6 +41,7 @@ const footer = props =>
       </div>
       <div className={styles.copyrightContainer}>
         <span>2020 Club Gamma. All Rights Reserved</span>
+        <a href="https://clubgamma.github.io/code-of-conduct/" target="_blank" rel="noopener noreferrer">Code Of Conduct</a>
       </div>
       <div className={styles.socialMediaIcons}>
         <SocialIcons />
