@@ -83,17 +83,6 @@
         }
       },
       {
-        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/shubham-raval-min.jpg",
-        "position": "WEB EXPERT",
-        "name": "Shubham Raval",
-        "social": {
-          "linkedin": "https://www.linkedin.com/in/its-shubhamraval/",
-          "instagram": "https://www.instagram.com/iamshubhamraval/",
-          "github": "https://github.com/shubhamdraval",
-          "twitter": "https://twitter.com/iwashomosapien"
-        }
-      },
-      {
         "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/rudra-barad-min.jpg",
         "position": "GRAPHIC DESIGNER",
         "name": "Rudra Barad",
