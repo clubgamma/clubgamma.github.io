@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.268fa355.chunk.css",
-    "main.js": "/static/js/main.b5bad2e5.chunk.js",
-    "main.js.map": "/static/js/main.b5bad2e5.chunk.js.map",
+    "main.js": "/static/js/main.50b61a9f.chunk.js",
+    "main.js.map": "/static/js/main.50b61a9f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
     "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
     "static/js/2.b5a68858.chunk.js": "/static/js/2.b5a68858.chunk.js",
     "static/js/2.b5a68858.chunk.js.map": "/static/js/2.b5a68858.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ce2c02af86ca56eac7d1a4637989acd0.js": "/precache-manifest.ce2c02af86ca56eac7d1a4637989acd0.js",
+    "precache-manifest.64857f1fa14cd7757683db043c89fa42.js": "/precache-manifest.64857f1fa14cd7757683db043c89fa42.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.268fa355.chunk.css.map": "/static/css/main.268fa355.chunk.css.map",
     "static/js/2.b5a68858.chunk.js.LICENSE.txt": "/static/js/2.b5a68858.chunk.js.LICENSE.txt",
@@ -23,6 +23,7 @@
     "static/media/MaskGroup3.svg": "/static/media/MaskGroup3.3dbb1bba.svg",
     "static/media/MaskGroup4.svg": "/static/media/MaskGroup4.3068f479.svg",
     "static/media/arrow.svg": "/static/media/arrow.7da2026c.svg",
+    "static/media/connect.svg": "/static/media/connect.473f6303.svg",
     "static/media/facebook.svg": "/static/media/facebook.5f78a2b5.svg",
     "static/media/gamma.png": "/static/media/gamma.85541eae.png",
     "static/media/github.svg": "/static/media/github.f8924093.svg",
@@ -38,7 +39,6 @@
     "static/media/ring1.png": "/static/media/ring1.2c1ee4fa.png",
     "static/media/ring2.png": "/static/media/ring2.133b10f3.png",
     "static/media/ring3.png": "/static/media/ring3.bb3a542c.png",
-    "static/media/seminars.svg": "/static/media/seminars.cae17ab3.svg",
     "static/media/twitter.svg": "/static/media/twitter.6a478d3b.svg",
     "static/media/workshops.svg": "/static/media/workshops.1162c008.svg",
     "static/media/youtube.svg": "/static/media/youtube.ca565736.svg"
@@ -47,6 +47,6 @@
     "static/js/runtime-main.09b85ec0.js",
     "static/js/2.b5a68858.chunk.js",
     "static/css/main.268fa355.chunk.css",
-    "static/js/main.b5bad2e5.chunk.js"
+    "static/js/main.50b61a9f.chunk.js"
   ]
 }
