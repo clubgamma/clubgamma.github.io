@@ -30,7 +30,7 @@ class App extends Component {
     }
     // Navbar active section
     this.state.sections.forEach(section => {
-      console.log(section.topPosition, window.pageYOffset, section.bottomPosition)
+      // console.log(section.topPosition, window.pageYOffset, section.bottomPosition)
       if (section.topPosition < window.pageYOffset + 125 && section.bottomPosition > window.pageYOffset) {
         this.setState({ activeSection: section.id })
       }

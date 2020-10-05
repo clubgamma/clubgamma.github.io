@@ -27,14 +27,8 @@ class AboutPage extends Component {
             <h1><span>club</span> gamma</h1>
             <blockquote>The more diversity, the better community</blockquote>
             <p>
-              Club Gamma envisages a conducive platform to explore student’s latent Tech talents
-              and also to enable them to come out with their innovative ideas by arranging various Hackathons,
-              workshops etc. For the all-round development of the students and to enrich their technical
-              knowledge Club provides a platform with guidance and profound seminars with Industry experts.
-              Club Gamma not only works for the students to explore their Technical skills but also help in areas
-              such as personality development and inculcate the spirit of excelling by providing them with a
-              platform for hosting their technical talents. The focus of the club primarily is to help the students
-              gain practical as well as theoretical technical knowledge.
+              <strong>Club Gamma</strong> formulates a contributory platform to scrutinize learner's potential talents with profound guidance. The club assists in both technical and non-technical spheres.
+              The pivot of the club fundamentally is to promote the inclusive growth of the learners and help the learners attain analytical knowledge.
             </p>
           </div>
         </div>
