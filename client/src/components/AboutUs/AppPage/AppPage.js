@@ -16,7 +16,7 @@ const appPage = props =>
         <a href="https://play.google.com/store/apps/details?id=com.gce.clubgamma" rel="noopener noreferrer">See Features &rarr;</a>
       </div>
       <div className={styles.colThree}>
-        <img src={playstoreSvg} alt="googleplay" onClick={() => window.open('https://play.google.com/store/apps/details?id=com.gce.clubgamma')} />
+        <img style={{cursor: 'pointer'}} src={playstoreSvg} alt="googleplay" onClick={() => window.open('https://play.google.com/store/apps/details?id=com.gce.clubgamma')} />
         {/* <br />
         <img src={appstoreSvg} alt="appstore" /> */}
       </div>

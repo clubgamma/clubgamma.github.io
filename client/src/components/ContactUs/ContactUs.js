@@ -10,7 +10,7 @@ const contactUs = props => {
   return (
     <section id="contactUs" className={styles.contactUs}>
       <div className={styles.headingContainer}>
-        <p>FAQs</p>
+        {/* <p>FAQs</p> */}
         <Heading>You have <span>Questions</span> ?</Heading>
       </div>
       <div className={styles.headingDesc}>

@@ -51,7 +51,7 @@ const blogsTimeline = props => {
         <Heading>{props.data.title}</Heading>
         <p>{props.data.description}</p>
         <Button onClick={() => props.onBtnClick(props.data.filename)}>
-          Go to Event <img src={rightArrow} className={styles.rightArrow} alt="right arrow" />
+          View details <img src={rightArrow} className={styles.rightArrow} alt="right arrow" />
         </Button>
       </div>
     </div>

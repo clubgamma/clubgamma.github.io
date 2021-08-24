@@ -23,6 +23,13 @@
   background-color: none;
   overflow: hidden;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.close:hover{
+  -webkit-box-shadow: 0px 0px 18px -5px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 18px -5px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 18px -5px rgba(0,0,0,0.2);
 }
 
 .close img {

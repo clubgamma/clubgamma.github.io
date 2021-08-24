@@ -9,8 +9,8 @@ const navbar = props => {
     { id: "#home", name: 'Home' },
     { id: "#aboutUs", name: 'About Us' },
     { id: "#events", name: 'Events' },
-    { id: "#teams", name: 'Teams' },
-    { id: "#contactUs", name: 'Contact Us' }
+    { id: "#teams", name: 'Team' },
+    { id: "#contactUs", name: 'Faqs' }
   ]
   sections.forEach(section => {
     if (section.id === props.activeSection) {
@@ -18,8 +18,19 @@ const navbar = props => {
     }
   })
 
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navv").style.top = "0";
+  } else {
+    document.getElementById("navv").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
   return (
-    <nav
+    <nav id="navv"
       className={styles.navigation}
       style={props.scrolled ? { boxShadow: 'inset 0 -1px 0 0 rgba(0, 0, 0, 0.1)' } : null}>
       <div className={styles.drawer}>

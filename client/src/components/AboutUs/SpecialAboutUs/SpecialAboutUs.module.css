@@ -22,14 +22,14 @@
   display: flex;
   justify-content: space-around;
   height: 60vh;
-  width: 75%;
+  width: 90%;
   margin: 64px auto;
 }
 
 .card {
   display: inline-block;
   height: 60vh;
-  width: 30%;
+  width: 33%;
 }
 
 .card img {
@@ -48,6 +48,7 @@
 }
 
 .card p{
+  font-size: 1.07rem;
   padding: 15px;
   width: 95%;
   word-spacing: 1px;

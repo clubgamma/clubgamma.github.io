@@ -16,7 +16,7 @@ const logo = props => {
         alt="logo"
       />
       {props.hasText
-        ? <Link to="#home">Club Gamma</Link>
+        ? <a href="/">Club Gamma</a>
         : null}
     </div>
   )

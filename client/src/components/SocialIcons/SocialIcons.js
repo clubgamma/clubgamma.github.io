@@ -8,6 +8,7 @@ import youtubeSvg from '../../assets/images/social_icons/youtube.svg'
 import linkedinSvg from '../../assets/images/social_icons/linkedin.svg'
 import facebookSvg from '../../assets/images/social_icons/facebook.svg'
 import twitterSvg from '../../assets/images/social_icons/twitter.svg'
+import discordSvg from '../../assets/images/social_icons/discord.svg'
 
 const socialIcons = props =>
   <div className={styles.iconsContainer}>
@@ -17,6 +18,7 @@ const socialIcons = props =>
     <Icon src={linkedinSvg} href="https://www.linkedin.com/company/clubgamma/" />
     <Icon src={facebookSvg} href="https://www.facebook.com/clubgamma/" />
     <Icon src={twitterSvg} href="https://twitter.com/club_gamma" />
+    <Icon src={discordSvg} href="https://discord.gg/CgMRHtXjrf" />
   </div>
 
 export default socialIcons

@@ -20,6 +20,7 @@ class Blogs extends Component {
     this.setState({ isModalOpen: false })
   }
 
+
   displayBlogHandler = filename => {
     console.log('https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/Blogs/' + filename)
     axios
@@ -44,6 +45,11 @@ class Blogs extends Component {
   }
 
   render() {
+
+    (this.state.isModalOpen)
+    ? document.body.setAttribute("style", `height: 100vh; overflow-y: hidden;`)
+    : document.body.setAttribute("style", ``);
+
     return (
       <section id="events" className={styles.blogs}>
         {this.state.isModalOpen ? <BackDrop click={this.backdropClickHandler} /> : null}

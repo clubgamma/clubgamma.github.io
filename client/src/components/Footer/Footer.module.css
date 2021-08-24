@@ -16,6 +16,7 @@
 
 .contactUs {
   flex: 2;
+  max-width:55%;
   margin: 32px 0;
 }
 
@@ -91,7 +92,7 @@
 }
 
 .copyrightContainer > a {
-  color: cyan;
+  color: cyan !important;
   margin: 2px 0;
 }
 
@@ -99,11 +100,17 @@
   margin-left: auto;
 }
 
+.footer a{
+  text-decoration: none;
+  color: inherit;
+}
+
 /*================= MEDIA QUERIES =================*/
 @media (max-width: 888px) {
   .footer {
     padding: 0 32px;
   }
+  
 
   .main {
     display: block;
@@ -117,6 +124,7 @@
 
   .contactUs {
     margin-top: 64px;
+    max-width: 100%;
   }
 
   .contactUs > p {

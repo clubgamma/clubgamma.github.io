@@ -10,3 +10,15 @@
 .icon img {
   height: 100%;
 }
+
+@media (max-width: 888px) {
+  .icon {
+    height: 34px;
+    width: 34px;
+    background-color: var(--logo-color);
+    margin: 6px;
+    padding: 8px;
+    border-radius: 15px;
+  }
+  
+}

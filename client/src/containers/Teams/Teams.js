@@ -31,7 +31,7 @@ class Teams extends Component {
       <section id="teams" className={styles.teams}>
         <div className={styles.headingContainer}>
           <Heading>Meet <span>Team</span> Gamma</Heading>
-          <p>These are the fine folks who.....</p>
+          <p>These are the fine folks behind Club Gamma!</p>
         </div>
         {this.state.teamsDetails.map((row, index) => (
           <div className={styles.row} key={index}>

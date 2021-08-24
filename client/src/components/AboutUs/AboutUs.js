@@ -1,15 +1,18 @@
-import React from 'react'
+import React from "react";
 
-import styles from './AboutUs.module.css'
-import AppPage from './AppPage/AppPage'
-import AboutPage from './AboutPage/AboutPage'
-import SpecialAboutUs from './SpecialAboutUs/SpecialAboutUs'
+import styles from "./AboutUs.module.css";
+import AppPage from "./AppPage/AppPage";
+import AboutPage from "./AboutPage/AboutPage";
+import SpecialAboutUs from "./SpecialAboutUs/SpecialAboutUs";
 
-const aboutUs = props =>
-  <section id="aboutUs" className={styles.aboutUs}>
+const aboutUs = (props) => (
+  <div  className={styles.aboutUs}>
     <AppPage />
-    <AboutPage />
+    <section id="aboutUs">
+      <AboutPage />
+    </section>
     <SpecialAboutUs />
-  </section>
+  </div>
+);
 
-export default aboutUs
+export default aboutUs;
