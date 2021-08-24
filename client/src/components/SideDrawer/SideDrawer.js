@@ -14,7 +14,7 @@ const sideDrawer = props => {
     { id: "#aboutUs", name: 'About Us' },
     { id: "#events", name: 'Events' },
     { id: "#teams", name: 'Teams' },
-    { id: "#contactUs", name: 'Contact Us' }
+    { id: "#contactUs", name: 'Faqs' }
   ]
   sections.forEach(section => {
     if (section.id === props.activeSection) {
