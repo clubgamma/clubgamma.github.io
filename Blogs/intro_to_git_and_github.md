@@ -37,4 +37,5 @@ Workshop was taken by [Rudra Barad](https://github.com/rudrabarad/) and [Chirayu
  - GitHub Developer Program
  - GitHub Pages (Just brief intro)
 
-_For more resources you can visit this [repository](https://github.com/clubgamma/GitHub-Workshop)_
+_For more resources you can visit this <a href="https://github.com/clubgamma/GitHub-Workshop" style="color: red">Repository</a> 
+<!-- [repository](https://github.com/clubgamma/GitHub-Workshop)_ -->
