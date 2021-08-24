@@ -17,6 +17,12 @@
       "title": "Micro-interactions with CSS Animations",
       "description": "This workshop mainly focuses on CSS animations and how to use it on your websites, how to make attractive markdown file for the projects. It is mostly intended to the people who have the clear foundation of CSS. we will cover intermediate to advance level topics of CSS animations.",
       "filename": "micro-interactions-css.md"
+    },
+    {
+      "date": "1st-31th Oct 2020",
+      "title": "Hacktoberfest 2020",
+      "description": "Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio. We will put projects on different fields like Mobile App Development, Web Development, Python, etc. We will initialise some GitHub Repo and will make them open source.",
+      "filename": "hacktoberfest_2020.md"
     }
   ]
 }
