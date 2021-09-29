@@ -23,6 +23,12 @@
       "title": "Hacktoberfest 2020",
       "description": "Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio. We will put projects on different fields like Mobile App Development, Web Development, Python, etc. We will initialise some GitHub Repo and will make them open source.",
       "filename": "hacktoberfest_2020.md"
+    },
+    {
+      "date": "01st-31st Oct 2021",
+      "title": "Hacktoberfest 2021",
+      "description": "Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub, Intel, Appwrite & Deepsource. Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2021 challenge and earn a limited edition T-shirt. We have different projects on our github, check it out!",
+      "filename": "hacktoberfest_2021.md"
     }
   ]
 }
