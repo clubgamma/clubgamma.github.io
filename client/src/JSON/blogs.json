@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "date": "22nd Aug 2020",
+      "title": "Intro to Git and GitHub",
+      "description": "It was 3 hours hands-on workshop which was conducted by our club for all students to learn Git & GitHub so that they can collaborate on professional projects with other developers.",
+      "filename": "intro_to_git_and_github.md"
+    },
+    {
+      "date": "29th Aug 2020",
+      "title": "Nailing Coding Interviews",
+      "description": "This event will be useful for pre-final and final year students placements are starting. This event will mostly focus on how to crack coding interviews at good product based companies, What care should be taken and how to apply for the interview and getting into it.",
+      "filename": "nailing_coding_interviews.md"
+    },
+    {
+      "date": "13th Sep 2020",
+      "title": "Micro-interactions with CSS Animations",
+      "description": "This workshop mainly focuses on CSS animations and how to use it on your websites, how to make attractive markdown file for the projects. It is mostly intended to the people who have the clear foundation of CSS. we will cover intermediate to advance level topics of CSS animations.",
+      "filename": "micro-interactions-css.md"
+    },
+    {
+      "date": "01st-31st Oct 2020",
+      "title": "Hacktoberfest 2020",
+      "description": "Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio. We will put projects on different fields like Mobile App Development, Web Development, Python, etc. We will initialise some GitHub Repo and will make them open source.",
+      "filename": "hacktoberfest_2020.md"
+    },
+    {
+      "date": "01st-31st Oct 2021",
+      "title": "Hacktoberfest 2021",
+      "description": "Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub, Intel, Appwrite & Deepsource. Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2021 challenge and earn a limited edition T-shirt. We have different projects on our github, check it out!",
+      "filename": "hacktoberfest_2021.md"
+    }
+  ]
+}

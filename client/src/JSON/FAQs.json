@@ -1,0 +1,16 @@
+{
+  "faqs": [
+    {
+      "title": "What is Club Gamma ?",
+      "description": "Club Gamma is a community run by enthusiastic students. We try to engage the students through our events like Workshops, Seminars, Hackathons etc."
+    },
+    {
+      "title": "Do I need to be very good at coding to be a part of Club Gamma ?",
+      "description": "No, We at Club Gamma believe diverse culture of the community. Club Gamma is open to any student, ranging from newbie programmers to experts in industry and other academic disciplines."
+    },
+    {
+      "title": "What if my questions are not answered in FAQ's section ?",
+      "description": "You can always contact on our social media handles, we are happy to solve your doubts :)"
+    }
+  ]
+}
