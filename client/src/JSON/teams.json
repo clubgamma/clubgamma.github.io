@@ -37,7 +37,7 @@
     ],
     [
       {
-        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/yash-paneliya-min.png",
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/poojan-vadaliya.png",
         "position": "CLUB MANAGER",
         "name": "Poojan Vadaliya",
         "social": {
@@ -48,9 +48,9 @@
         }
       },
       {
-        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/dhruv-patel-min.jpeg",
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/aryan-kadiya.jpeg",
         "position": "CLUB MANAGER",
-        "name": "Aryan Kadakiya",
+        "name": "Aryan Kadiya",
         "social": {
           "linkedin": "https://www.linkedin.com/in/dhruvpatel1706/",
           "instagram": "https://www.instagram.com/dhruv17.06/",
@@ -59,7 +59,7 @@
         }
       },
       {
-        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/harsh-patel-min.jpg",
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/saheel-sapovadia.jpg",
         "position": "WEB EXPERT",
         "name": "Saheel Sapovadia",
         "social": {
@@ -72,7 +72,7 @@
     ],
     [
       {
-        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/chirayu-joshi-min.jpg",
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/yash-patel.jpg",
         "position": "WEB EXPERT",
         "name": "Yash Patel",
         "social": {
@@ -83,7 +83,7 @@
         }
       },
       {
-        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/rudra-barad-min.jpg",
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/rushi-donga.jpg",
         "position": "MOBILE EXPERT",
         "name": "Rushi Donga",
         "social": {
@@ -94,7 +94,7 @@
         }
       },
       {
-        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/saumya-shah-min.jpg",
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/shruti-rana.jpg",
         "position": "GRAPHIC DESIGNER",
         "name": "Shurti Rana",
         "social": {
@@ -107,7 +107,7 @@
     ],
     [
       {
-        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/chirayu-joshi-min.jpg",
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/shruti-patel.jpg",
         "position": "GRAPHIC DESIGNER",
         "name": "Shruti Patel",
         "social": {
@@ -118,7 +118,7 @@
         }
       },
       {
-        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/rudra-barad-min.jpg",
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/kashyap-bhalodiya.jpg",
         "position": "GRAPHIC DESIGNER",
         "name": "Kashyap Bhalodiya",
         "social": {
@@ -129,7 +129,7 @@
         }
       },
       {
-        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/saumya-shah-min.jpg",
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/mosami-patel.jpg",
         "position": "Content Writer",
         "name": "Mosami Patel",
         "social": {
@@ -142,7 +142,7 @@
     ],
     [
       {
-        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/saumya-shah-min.jpg",
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/hetvi-patel.jpg",
         "position": "Content Writer",
         "name": "Hetvi Patel",
         "social": {
