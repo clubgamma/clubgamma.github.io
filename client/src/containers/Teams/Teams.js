@@ -16,16 +16,18 @@ class Teams extends Component {
   };
 
   componentDidMount() {
-    console.log("data ", data.teams);
-    this.setState({ teamsDetails: data.teams });
-    // axios
-    //   .get('https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/JSON/teams.json')
-    //   .then(res => {
-    //     this.setState({ teamsDetails: res.data.teams })
-    //   })
-    //   .catch(err => {
-    //     console.log(err)
-    //   })
+    // console.log("data ", data.teams);
+    // this.setState({ teamsDetails: data.teams });
+    axios
+      .get(
+        "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/JSON/teams.json"
+      )
+      .then((res) => {
+        this.setState({ teamsDetails: res.data.teams });
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   }
 
   render() {
