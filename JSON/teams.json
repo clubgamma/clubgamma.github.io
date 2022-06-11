@@ -39,7 +39,7 @@
       {
         "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/yash-paneliya-min.png",
         "position": "CLUB MANAGER",
-        "name": "Yash Paneliya",
+        "name": "Poojan Vadaliya",
         "social": {
           "linkedin": "https://www.linkedin.com/in/yashpaneliya/",
           "instagram": "https://www.instagram.com/_yashh_paneliya_/",
@@ -50,7 +50,7 @@
       {
         "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/dhruv-patel-min.jpeg",
         "position": "CLUB MANAGER",
-        "name": "Dhruv Patel",
+        "name": "Aryan Kadakiya",
         "social": {
           "linkedin": "https://www.linkedin.com/in/dhruvpatel1706/",
           "instagram": "https://www.instagram.com/dhruv17.06/",
@@ -60,8 +60,8 @@
       },
       {
         "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/harsh-patel-min.jpg",
-        "position": "MOBILE EXPERT",
-        "name": "Harsh Patel",
+        "position": "WEB EXPERT",
+        "name": "Saheel Sapovadia",
         "social": {
           "linkedin": "https://www.linkedin.cn/mwlite/in/harsh-patel-850b6419a",
           "instagram": "https://www.instagram.com/harshptl14/",
@@ -74,7 +74,7 @@
       {
         "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/chirayu-joshi-min.jpg",
         "position": "WEB EXPERT",
-        "name": "Chirayu Joshi",
+        "name": "Yash Patel",
         "social": {
           "linkedin": "https://www.linkedin.com/in/chirayu-joshi-154b3317b/",
           "instagram": "https://www.instagram.com/chirayujoshi1189/",
@@ -84,8 +84,8 @@
       },
       {
         "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/rudra-barad-min.jpg",
-        "position": "GRAPHIC DESIGNER",
-        "name": "Rudra Barad",
+        "position": "MOBILE EXPERT",
+        "name": "Rushi Donga",
         "social": {
           "linkedin": "https://www.linkedin.com/in/rudra-barad/",
           "instagram": "https://www.instagram.com/rudra.barad/",
@@ -96,7 +96,55 @@
       {
         "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/saumya-shah-min.jpg",
         "position": "GRAPHIC DESIGNER",
-        "name": "Saumya Shah",
+        "name": "Shurti Rana",
+        "social": {
+          "linkedin": "https://www.linkedin.com/in/saumya-shah-9bb0aa1a5/",
+          "instagram": "https://www.instagram.com/saumya.shah.26/",
+          "github": "https://github.com/saumya2610",
+          "twitter": "https://twitter.com/Saumya2610"
+        }
+      }
+    ],
+    [
+      {
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/chirayu-joshi-min.jpg",
+        "position": "GRAPHIC DESIGNER",
+        "name": "Shruti Patel",
+        "social": {
+          "linkedin": "https://www.linkedin.com/in/chirayu-joshi-154b3317b/",
+          "instagram": "https://www.instagram.com/chirayujoshi1189/",
+          "github": "https://github.com/chirayu-joshi",
+          "twitter": "https://twitter.com/chirayu_joshi_"
+        }
+      },
+      {
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/rudra-barad-min.jpg",
+        "position": "GRAPHIC DESIGNER",
+        "name": "Kashyap Bhalodiya",
+        "social": {
+          "linkedin": "https://www.linkedin.com/in/rudra-barad/",
+          "instagram": "https://www.instagram.com/rudra.barad/",
+          "github": "https://github.com/rudrabarad",
+          "twitter": "https://twitter.com/rudraabarad"
+        }
+      },
+      {
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/saumya-shah-min.jpg",
+        "position": "Content Writer",
+        "name": "Mosami Patel",
+        "social": {
+          "linkedin": "https://www.linkedin.com/in/saumya-shah-9bb0aa1a5/",
+          "instagram": "https://www.instagram.com/saumya.shah.26/",
+          "github": "https://github.com/saumya2610",
+          "twitter": "https://twitter.com/Saumya2610"
+        }
+      }
+    ],
+    [
+      {
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/saumya-shah-min.jpg",
+        "position": "Content Writer",
+        "name": "Hetvi Patel",
         "social": {
           "linkedin": "https://www.linkedin.com/in/saumya-shah-9bb0aa1a5/",
           "instagram": "https://www.instagram.com/saumya.shah.26/",
