@@ -48,7 +48,7 @@
         }
       },
       {
-        "imageUrl": "https://github.com/clubgamma/clubgamma.github.io/blob/master/client/src/assets/images/team_images/aryan-kadiya.jpg",
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/aryan-kadiya.jpg",
         "position": "CLUB MANAGER",
         "name": "Aryan Kadiya",
         "social": {
@@ -142,7 +142,7 @@
     ],
     [
       {
-        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/hetvi-patel.jpg",
+        "imageUrl": "https://raw.githubusercontent.com/clubgamma/clubgamma.github.io/master/client/src/assets/images/team_images/hetvi.jpg",
         "position": "Content Writer",
         "name": "Hetvi Patel",
         "social": {
